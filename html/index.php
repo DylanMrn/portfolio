@@ -36,15 +36,14 @@
                 </div>
             </header>
             <section class="first_page">
-                <article>
+                <article style="position: absolute; padding: 2em; left: 50%; top: 50%; transform: translate(-50%, -50%);">
                     <div class="circle"> </div>
                     <h1 style="font-weight: bold; text-align: center; font-family: 'Calibri', sans-serif; font-size: 50px;"> Dylan Marion </h1>
                     <div class="social" style="text-align: center;">
-                        <a href="" class="github">
-                            <i class="fas fa-user"></i>
-                        </a>
-                        <a href="" class="linkedin">
-                            <i class="fas fa-user"></i>
+                        <a href="https://github.com/DylanMrn" target="_blank" rel="noopener noreferrer" class="github" style="font-size: 200%; color: white; margin-right: 2%">
+                            <i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/dylan-mrn/" target="_blank" rel="noopener noreferrer" class="linkedin" style="font-size: 200%; color: white;">
+                            <i class="fab fa-linkedin"></i>
                         </a>
                     </div>
                     <div style="text-align: center">
@@ -56,10 +55,10 @@
                 </article>
             </section>
         </div>
-        <section class="about" style='background-color: yellow; width: 100%; height: 50vh;'>
+        <section class="about" style='background-color: yellow; width: 100%;'>
             <article style="padding-left: 18%; padding-top: 4%;"> 
                 <h1> About ME </h1>
-                <div style="display: flex; float: left; flex-flow: row wrap; min-width: 100%;">
+                <div style="display: flex; flex-flow: row wrap; width: 100%;">
                     <div class="circle2" style=""> </div>
                     <div class="bubble" style="">
                         blabla
@@ -72,27 +71,25 @@
         </section>
         <section>
             <article class="resume" style='background-color: green; width: 100%; height: 50vh; display: flex; margin: 0 auto; flex-flow: row wrap;'>
-                <div class="experience card" style="width: 600px; background-color: red; margin: 1% auto;">
+                <div class="card experience" style="width: 850px; background-color: red; margin: 1% auto;">
                     aaaaa
                 </div>
-                <div class="card studies" style="width: 600px; background-color: blue; margin: 1% auto">
+                <div class="card studies" style="width: 850px; background-color: blue; margin: 1% auto">
                     bbbb
                 </div>
             </article>
         </section>
         <section>
-            <article class="works" style='background-color: purple; width: 100%; height: 50vh; display: flex; flex-flow: row wrap; justify-content: center;'>
-                <div class="card2" style="margin: 1%"> </div>
-                <div class="card2" style="margin: 1%"> </div>
-                <div class="card2" style="margin: 1%;"> </div>
-                <div class="card2" style="margin: 1%;"> </div>
+            <article class="works" style='background-color: purple; width: 100%; display: flex; flex-flow: row wrap; justify-content: center;'>
+                <div class="card2" style="margin: 1%; height: 175px;"> aaa</div>
+                <div class="card2" style="margin: 1%; height: 175px;">a </div>
             </article>
         </section>
         <section>
             <article class="services" style='background-color: blue; width: 100%; display: flex; justify-content: center; flex-flow: row wrap;'>
-                <div style="background-color: yellow; width: 25%; display: flex; flex-flow: row wrap; height: 275px; border-radius: 20px; margin: 2% 10px"> </div>
-                <div style="background-color: yellow; width: 30%; display: flex; flex-flow: row wrap; height: 400px; border-radius: 20px; margin: 1% 0%"> </div>
-                <div style="background-color: yellow; width: 25%; display: flex; flex-flow: row wrap; height: 275px; border-radius: 20px; margin: 2% 10px"> </div>
+                <div style="background-color: yellow; width: 25%; height: 275px; border-radius: 20px; margin: 2% 10px"> </div>
+                <div style="background-color: yellow; width: 30%; height: 400px; border-radius: 20px; margin: 1% 0%"> </div>
+                <div style="background-color: yellow; width: 25%; height: 275px; border-radius: 20px; margin: 2% 10px"> </div>
             </article>
         </section>
         <section>
@@ -105,7 +102,7 @@
             </article>
         </section>
         <section>
-            <article class="contact" style='background-color: green; width: 100%; height: 50vh;'>
+            <article class="contact" style='background-color: green; width: 100%; height: 50vh; text-align: center;'>
                 <h1> Contact US </h1>
                 <form action="" method="get" class="form-example">
                 <div class="form-example">

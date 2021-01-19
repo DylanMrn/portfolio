@@ -56,13 +56,13 @@ body {
 .bubble
 {
    position: relative;
-   min-width: 600px;
+   min-width: 50%;
    height: 170px;
-   padding: 0px;
    background: #ffffff;
    -webkit-border-radius: 20px;
    -moz-border-radius: 20px;
    border-radius: 20px;
+   margin-bottom: 5%;
 }
 
 .bubble:after
