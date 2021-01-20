@@ -18,7 +18,7 @@
     </head>
     <body>
         <div style="display: flex;">
-            <header id="menu" style='display: flex; flex-direction: column;'>
+            <!-- <header id="menu" style='display: flex; flex-direction: column;'>
                 <div class="logo" style='background-color: green; flex: 1;'>
                     gjkjhkfjg
                 </div>
@@ -34,7 +34,7 @@
                 <div class="signature" style='background-color: red; flex: 1;'>
                     <p style="text-align: center; margin-top: 40%;"> © Copyright 2021 D. MARION <p>
                 </div>
-            </header>
+            </header> -->
             <section class="first_page">
                 <article style="position: absolute; padding: 2em; left: 50%; top: 50%; transform: translate(-50%, -50%);">
                     <div class="circle"> </div>
@@ -56,12 +56,26 @@
             </section>
         </div>
         <section class="about" style='background-color: yellow; width: 100%;'>
+            <h1 style="padding-left: 18%"> About ME </h1>
             <article style="padding-left: 18%; padding-top: 4%;"> 
-                <h1> About ME </h1>
+                
                 <div style="display: flex; flex-flow: row wrap; width: 100%;">
                     <div class="circle2" style=""> </div>
-                    <div class="bubble" style="">
-                        blabla
+                    <div class="bubble" style="margin: 1%; padding: 1% 1% 1% 1%; display: flex; flex-flow: row wrap;">
+                        <div style="width: 500px; padding-right: 1%"> 
+                            <p> Jeune chef de projet bientôt diplomé d'une école d'Ingénieur <a href=""> EPITECH </a> <i class="fas fa-graduation-cap"></i> <p>
+                            <p> Depuis mes premières années de lycée, je me suis toujours dirigé vers l'informatique grâce à la filiaire STI2D puis un BTS SN-IR </p>
+                            <p> Je termine donc actuellement ma formation grâce à un BAC+5, en route vers la vie active ! </p>
+                            <button class="button button_read_more" style="display: block; margin: 1% auto"> Download CV ! </button>
+                        </div>
+                        <div style="width: 500px; padding-left: 1%">
+                            <p> Gestion de projet </p>
+                            <progress value="70" max="100" style="width: 100%; height: 30px">70 %</progress>
+                            <p> Développement WEB (HTML, CSS, JS) </p>
+                            <progress value="70" max="100" style="width: 100%; height: 30px"> 70 %</progress>
+                            <p> Communication / Marketing </p>
+                            <progress value="70" max="100" style="width: 100%; height: 30px">70 %</progress>
+                        </div>
                     </div>
                 </div>
                 <div class="facts">
@@ -70,12 +84,38 @@
             </article>
         </section>
         <section>
-            <article class="resume" style='background-color: green; width: 100%; height: 50vh; display: flex; margin: 0 auto; flex-flow: row wrap;'>
-                <div class="card experience" style="width: 850px; background-color: red; margin: 1% auto;">
-                    aaaaa
+            <article class="resume" style='background-color: green; width: 100%; display: flex; margin: 0 auto; flex-flow: row wrap;'>
+                <div class="card experience" style="width: 850px; background-color: red; margin: 1% auto; padding: 1%">
+                    <div class="test"> Experience
+                        <details>
+                        <summary> SIACI SAINT HONORE </summary>
+                        </details>
+                        <details>
+                        <summary> SIACI SAINT HONORE </summary>
+                        </details>
+                        <details>
+                        <summary> SIACI SAINT HONORE </summary>
+                        </details>
+                        <details>
+                        <summary>  MONOPRIX </summary>
+                        </details>    
+                        <details>
+                        <summary> E.LECLERC </summary>
+                        </details>
+                        <details>
+                        <summary> SIACI SAINT HONORE </summary>
+                        </details>
+                        <details>
+                        <summary> MCDONALD </summary>
+                        </details>
+                    </div>
                 </div>
-                <div class="card studies" style="width: 850px; background-color: blue; margin: 1% auto">
-                    bbbb
+                <div class="card studies" style="width: 850px; background-color: blue; margin: 1% auto; padding: 1%">
+                    <p> Etude </p>
+                    <div> EPITECH </div>
+                    <div> IUT DE VELIZY </div>
+                    <div> JULES FERRY </div>
+                    <div> AGORA </div>
                 </div>
             </article>
         </section>
@@ -87,14 +127,27 @@
         </section>
         <section>
             <article class="services" style='background-color: blue; width: 100%; display: flex; justify-content: center; flex-flow: row wrap;'>
-                <div style="background-color: yellow; width: 25%; height: 275px; border-radius: 20px; margin: 2% 10px"> </div>
-                <div style="background-color: yellow; width: 30%; height: 400px; border-radius: 20px; margin: 1% 0%"> </div>
+                <div style="background-color: yellow; width: 25%; height: 275px; border-radius: 20px; margin: 2% 10px"> 
+                    
+                </div>
+                <div style="background-color: yellow; width: 30%; height: 400px; border-radius: 20px; margin: 1% 0%"> 
+                    <p style="text-align: center;"> Chef de projet </p>
+                    <div>
+                        Animation de réunion & rédaction de CR de réunion
+                        Réalisation de documentation
+                        Mise en place et utilisation d'outil de gestion de projet (Attlasian, Excel, ...)
+                        Création et suivi de planning
+                    </div>
+                </div>
                 <div style="background-color: yellow; width: 25%; height: 275px; border-radius: 20px; margin: 2% 10px"> </div>
             </article>
         </section>
         <section>
             <article class="blog" style='background-color: yellow; width: 100%; display: flow-root; justify-content: center;'>
-                <div style="background-color: green; width: 60%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto"> </div>
+                <a href="">
+                    <div style="background-color: green; width: 60%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto"> </div>
+                    
+                </a>
                 <div style="background-color: green; width: 60%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto"> </div>
                 <div style="background-color: green; width: 60%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto"> </div>
                 <div style="background-color: green; width: 60%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto"> </div>
