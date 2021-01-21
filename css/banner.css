@@ -1,7 +1,13 @@
 #menu {
-    width: 20%;
-}
-
-.flex {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 15px;
+    overflow-y: auto;
+    justify-content: center!important;
+    flex-direction: column!important;
     display: flex!important;
 }

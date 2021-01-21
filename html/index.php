@@ -17,44 +17,40 @@
     </head>
     <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-        <div style="display: flex;">
-            <!-- <header id="menu" style='display: flex; flex-direction: column;'>
-                <div class="logo" style='background-color: green; flex: 1;'>
-                    gjkjhkfjg
+        <header id="menu" style=''>
+            <nav style="">
+                <ul>
+                    <li>
+                        <a href="#">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">CV</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="first_page">
+            <article style="position: absolute; padding: 2em; left: 50%; top: 50%; transform: translate(-50%, -50%);">
+                <div class="circle"> </div>
+                <h1 style="font-weight: bold; text-align: center; font-family: 'Calibri', sans-serif; font-size: 50px;"> Dylan Marion </h1>
+                <div class="social" style="text-align: center;">
+                    <a href="https://github.com/DylanMrn" target="_blank" rel="noopener noreferrer" class="github" style="font-size: 200%; color: white; margin-right: 2%">
+                        <i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/dylan-mrn/" target="_blank" rel="noopener noreferrer" class="linkedin" style="font-size: 200%; color: white;">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
                 </div>
-                <nav style="flex: 2;">
-                    <div class="menu">
-                        <ul>
-                            <li><a href="#">Accueil</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">CV</a></li>
-                        </ul>
-                    </div>
-                </nav>
-                <div class="signature" style='background-color: red; flex: 1;'>
-                    <p style="text-align: center; margin-top: 40%;"> © Copyright 2021 D. MARION <p>
+                <div style="text-align: center">
+                    <button class="button button_hire"> Hire Me ! </button>
                 </div>
-            </header> -->
-            <section class="first_page">
-                <article style="position: absolute; padding: 2em; left: 50%; top: 50%; transform: translate(-50%, -50%);">
-                    <div class="circle"> </div>
-                    <h1 style="font-weight: bold; text-align: center; font-family: 'Calibri', sans-serif; font-size: 50px;"> Dylan Marion </h1>
-                    <div class="social" style="text-align: center;">
-                        <a href="https://github.com/DylanMrn" target="_blank" rel="noopener noreferrer" class="github" style="font-size: 200%; color: white; margin-right: 2%">
-                            <i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/dylan-mrn/" target="_blank" rel="noopener noreferrer" class="linkedin" style="font-size: 200%; color: white;">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                    </div>
-                    <div style="text-align: center">
-                        <button class="button button_hire"> Hire Me ! </button>
-                    </div>
-                    <div class="logo_scroll">
-                        <i> </i>
-                    <div>
-                </article>
-            </section>
-        </div>
+                <div class="logo_scroll">
+                    <i> </i>
+                <div>
+            </article>
+        </section>
         <section class="about" style='background-color: yellow; width: 100%;'>
             <h1 style="padding-left: 18%"> About ME </h1>
             <article style="padding-left: 18%; padding-top: 4%;"> 
@@ -84,7 +80,7 @@
             </article>
         </section>
         <section>
-            <article class="resume" style='background-color: green; width: 100%; display: flex; margin: 0 auto; flex-flow: row wrap;'>
+            <article class="resume" style='background-color: green; width: 100%; display: flex; margin: 0 auto; flex-flow: row wrap; padding-left: 18%'>
                 <div class="card experience" style="width: 850px; background-color: red; margin: 1% auto; padding: 1%">
                     <div class="test"> Experience
                         <details>
@@ -176,8 +172,9 @@
             </article>
         </section>
         <footer id='footer'>
-            <p style=""> © Dylan Marion 2021 <a href> condition général d'utilisation </a> </p>
+            <p style=""> © Dylan Marion 2021. All Rights Reserved. Hand made. <a href="CGU/cgu.php"> condition général d'utilisation </a> </p>
         </footer>
+
         <!-- JS -->
         <script type="text/javascript" src="../js/scroll.js"></script>
     </body>
