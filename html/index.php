@@ -9,14 +9,14 @@
         <link rel="stylesheet" href="../css/body.css">
         <link rel="stylesheet" href="../css/footer.css">
         <link rel="stylesheet" href="../css/about.css">
-        
-        <!-- JS -->
+        <link rel="stylesheet" href="../css/scroll_top.css">
 
         <!-- ICONS -->
         <link rel="stylesheet" href="../icons/css/all.min.css">
         
     </head>
     <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         <div style="display: flex;">
             <!-- <header id="menu" style='display: flex; flex-direction: column;'>
                 <div class="logo" style='background-color: green; flex: 1;'>
@@ -155,25 +155,30 @@
             </article>
         </section>
         <section>
-            <article class="contact" style='background-color: green; width: 100%; height: 50vh; text-align: center;'>
-                <h1> Contact US </h1>
-                <form action="" method="get" class="form-example">
-                <div class="form-example">
-                    <label for="name">Enter your nom: </label>
-                    <input type="text" name="name" id="name" required>
-                </div>
-                <div class="form-example">
-                    <label for="email">Enter your email: </label>
-                    <input type="email" name="email" id="email" required>
-                </div>
-                <div class="form-example">
-                    <button class="button button_read_more" style="display: block; margin: 1% auto"> Envoie ! </button>
-                </div>
-                </form>
+            <article class="contact" style='background-color: green; width: 100%; text-align: center; padding-left: 18%;'>
+                <div style="width: 50%; margin: 0 auto;">
+                    <h1> Contact US </h1>
+                    <form action="" method="get" class="form-example">
+                        <div class="form-example">
+                            <input class="form" type="text" name="name" id="name" placeholder="Name" input required>
+                        </div>
+                        <div class="form-example">
+                            <input class="form" type="email" name="email" id="email" placeholder="E-mail" required>
+                        </div>
+                        <div class="form-example">
+                            <textarea name="message" id="InputMessage" class="form" placeholder="Message" style="height: 100px; margin: 1% 0 1% 0;"></textarea>
+                        </div>
+                        <div class="form-example">
+                            <button class="button button_read_more" style="display: block; margin: 1% auto;"> Envoie ! </button>
+                        </div>
+                    </form>
+                    </div>
             </article>
         </section>
         <footer id='footer'>
             <p style=""> © Dylan Marion 2021 <a href> condition général d'utilisation </a> </p>
         </footer>
+        <!-- JS -->
+        <script type="text/javascript" src="../js/scroll.js"></script>
     </body>
 </html>
