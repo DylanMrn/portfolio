@@ -21,8 +21,8 @@
             <nav style="">
                 <ul>
                     <li>
-                        <a href="#" class="puce">
-                            <i class="fas fa-home">  </i>
+                        <a href="#profil" class="puce">
+                            <i class="fas fa-home"> </i>
                         </a>
                     </li>
                     <li>
@@ -38,7 +38,7 @@
                 </ul>
             </nav>
         </header>
-        <section class="first_page">
+        <section class="first_page" id="profil">
             <article style="position: absolute; padding: 2em; left: 50%; top: 50%; transform: translate(-50%, -50%);">
                 <div class="circle"> </div>
                 <h1 style="font-weight: bold; text-align: center; font-family: 'Calibri', sans-serif; font-size: 50px;"> Dylan Marion </h1>
@@ -67,7 +67,9 @@
                             <p> Jeune chef de projet bientôt diplomé d'une école d'Ingénieur <a href=""> EPITECH </a> <i class="fas fa-graduation-cap"></i> <p>
                             <p> Depuis mes premières années de lycée, je me suis toujours dirigé vers l'informatique grâce à la filiaire STI2D puis un BTS SN-IR </p>
                             <p> Je termine donc actuellement ma formation grâce à un BAC+5, en route vers la vie active ! </p>
-                            <button class="button button_read_more" style="display: block; margin: 1% auto"> Download CV ! </button>
+                            <button class="button button_read_more" style="display: block; margin: 1% auto"> 
+                                <a href="" download=""> Download CV ! </a> 
+                            </button>
                         </div>
                         <div style="width: 500px; padding-left: 1%">
                             <p> Gestion de projet </p>
