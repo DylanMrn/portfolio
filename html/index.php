@@ -2,6 +2,11 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- META DESCRIPTION -->
+        <meta name="description" content="Découvrer mon CV & mon Portfolio | Dylan Marion |">
+
         <title>PORTFOLIO</title>
 
         <!-- CSS -->
@@ -73,11 +78,11 @@
                         </div>
                         <div style="width: 500px; padding-left: 1%">
                             <p> Gestion de projet </p>
-                            <progress value="70" max="100" style="width: 100%; height: 30px">70 %</progress>
+                            <progress value="70" max="100" style="width: 100%; height: 30px;">70 %</progress>
                             <p> Développement WEB (HTML, CSS, JS) </p>
-                            <progress value="70" max="100" style="width: 100%; height: 30px">70 %</progress>
+                            <progress value="70" max="100" style="width: 100%; height: 30px;">70 %</progress>
                             <p> Communication / Marketing </p>
-                            <progress value="70" max="100" style="width: 100%; height: 30px">70 %</progress>
+                            <progress value="70" max="100" style="width: 100%; height: 30px;">70 %</progress>
                         </div>
                     </div>
                 </div>
@@ -89,7 +94,7 @@
         <section>
             <article class="resume" style='background-color: green; width: 100%; display: flex; margin: 0 auto; flex-flow: row wrap; padding-left: 18%'>
                 <div class="card experience" style="width: 700px; background-color: red; margin: 1% auto; padding: 1%">
-                    <div class="test"> Experiences
+                    <div class="test fab"> Experiences
                         <details>
                             <summary> SIACI SAINT HONORE </summary>
                             <p> Chef de projet Junior </p>
@@ -174,10 +179,10 @@
                     <p style="text-align: center;"> Gestion de projet </p>
                     <div>
                         <ul>
-                            <li>Animation de réunion & rédaction de CR de réunion</li>
-                            <li>Réalisation de documentation</li>
-                            <li>Mise en place et utilisation d'outil de gestion de projet (Attlasian, Excel, ...)</li>
-                            <li>Création et suivi de planning</li>
+                            <li> Animation de réunion & rédaction de CR de réunion </li>
+                            <li> Réalisation de documentation </li>
+                            <li> Mise en place et utilisation d'outil de gestion de projet (Attlasian, Excel, ...) </li>
+                            <li> Création et suivi de planning </li>
                         </ul>
                     </div>
                 </div>
@@ -189,22 +194,25 @@
         <section>
             <article class="blog" style='background-color: yellow; width: 100%; display: flow-root; justify-content: center; padding-left: 18%'>
                 <div style="background-color: green; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto">
-                    <a href="blog/article1.php" style="width: 100%"> 
-                        <h1> Création du blog </h1>
+                    <a href="blog/article1.php" style="width: 100%; margin: 1%">
+                        <h1 style="display: inline;"> Création du blog </h1>
+                        <p style="margin: 0;"> Auteur : Dylan Marion </p>
                         <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled>
                         <p> Présentation de mon site du PORTFOLIO et des articles du blog... </p>
                     </a>
                 </div>
                 <div style="background-color: green; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto"> 
-                    <a href="blog/article1.php" style="width: 100%"> 
-                        <h1> Mes musiques et mes séries préférées </h1>
+                    <a href="blog/article1.php" style="width: 100%; margin: 1%">
+                        <h1 style="display: inline;"> Mes musiques et mes séries préférées </h1>
+                        <p style="margin: 0;"> Auteur : Dylan Marion </p>
                         <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled>
                         <p> Découvrer mes musiques/artistes préférées mais aussi mes séries du moment et mes coups de coeur... </p>
                     </a>
                 </div>
                 <div style="background-color: green; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto">
-                <a href="blog/article1.php" style="width: 100%"> 
-                        <h1> Mes méthodes d'apprentissage </h1>
+                    <a href="blog/article1.php" style="width: 100%; margin: 1%">
+                        <h1 style="display: inline;"> Mes méthodes d'apprentissage </h1>
+                        <p style="margin: 0;"> Auteur : Dylan Marion </p>
                         <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled>
                         <p> Présentation des techniques de travail et de mes sites de veilles... </p>
                     </a>
@@ -236,7 +244,7 @@
             </article>
         </section>
         <footer id='footer'>
-            <p style=""> © Dylan Marion 2021. All Rights Reserved. Hand made. <a href="CGU/cgu.php"> condition général d'utilisation </a> </p>
+            <p style=""> © Dylan Marion 2021. All Rights Reserved. Hand made. <a href="CGU/cgu.php" style="color: #45505b;"> Condition Général d'Utilisation (CGU) </a> </p>
         </footer>
 
         <!-- JS -->
