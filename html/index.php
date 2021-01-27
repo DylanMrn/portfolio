@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
-        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- META DESCRIPTION -->
+        <meta name="author" content="Dylan Marion">
+        <meta name="title" content="Dylan Marion Portfolio">
         <meta name="description" content="Découvrer mon CV & mon Portfolio | Dylan Marion |">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="">
+        <meta property="og:description" content="Découvrer mon CV & mon Portfolio | Dylan Marion |">
+        <meta property="og:title" content="Dylan Marion Portfolio">
+        <!-- <meta name= "keywords" content="mettez, vos, mot-clés, ici"> -->
+
+        <!-- ICON -->
+        <link rel="shortcut icon" href="" type="image/x-icon">
 
         <title>PORTFOLIO</title>
 
