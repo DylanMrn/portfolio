@@ -7,10 +7,10 @@
         <!-- META DESCRIPTION -->
         <meta name="author" content="Dylan Marion">
         <meta name="title" content="Dylan Marion Portfolio">
-        <meta name="description" content="Découvrer mon CV & mon Portfolio | Dylan Marion |">
+        <meta name="description" content="Découvrer mon CV & mon Portfolio | Dylan Marion | 2021">
         <meta property="og:type" content="website">
         <meta property="og:image" content="">
-        <meta property="og:description" content="Découvrer mon CV & mon Portfolio | Dylan Marion |">
+        <meta property="og:description" content="Découvrer mon CV & mon Portfolio | Dylan Marion | 2021">
         <meta property="og:title" content="Dylan Marion Portfolio">
         <!-- <meta name= "keywords" content="mettez, vos, mot-clés, ici"> -->
 
@@ -73,10 +73,10 @@
             </article>
         </section>
         <section class="about" id="profil" style='background-color: #D5DFE5; width: 100%;'>
-            <h1 style="padding-left: 18%"> About ME </h1>
+            <h1 style="padding-left: 18%; padding-top: 3%"> About ME </h1>
             <article style="padding-left: 18%;">
                 <div style="display: flex; flex-flow: row wrap; width: 100%;">
-                    <div class="circle2" style=""> </div>
+                    <div class="circle2" style="margin-top: 50px;"> </div>
                     <div class="bubble" style="margin: 1%; padding: 1% 1% 1% 1%; display: flex; flex-flow: row wrap;">
                         <div style="width: 500px; padding-right: 1%"> 
                             <p> Jeune chef de projet bientôt diplomé d'une école d'Ingénieur <a href="" style="color: black;"> EPITECH </a> <i class="fas fa-graduation-cap"></i> <p>
@@ -101,65 +101,97 @@
                 <div class="card experience" style="width: 700px; background-color: #FFF; margin: 1% auto; padding: 1%">
                     <div class="test fab"> Experiences
                         <details>
-                            <summary> SIACI SAINT HONORE </summary>
+                            <summary>
+                                <i class="fas fa-laptop-code"></i>
+                                <p> SIACI SAINT HONORE </p>
+                            </summary>
                             <p> Chef de projet Junior </p>
                             <p> Septembre 2019 - Aout 2021 </p> <p> 2 ans </p>
                             <p> Contrat en alternance </p>
                         </details>
                         <details>
-                            <summary> SIACI SAINT HONORE </summary>
+                            <summary>
+                                <i class="fas fa-laptop-code"></i>
+                                <p> SIACI SAINT HONORE </p>
+                            </summary>
                             <p> Développeur Junior </p>
                             <p> Septembre 2018 - Septembre 2019 </p> <p> 1 ans </p>
                             <p> Contrat en alternance </p>
                         </details>
                         <details>
-                            <summary>  MONOPRIX </summary>
+                            <summary>
+                                <i class="fas fa-store"></i>
+                                <p> MONOPRIX </p>
+                            </summary>
                             <p> Employé de commerce </p>
                             <p> Septembre 2018 - Septembre 2019 </p> <p> 1 ans </p>
                             <p> CDI étudiant </p>
                         </details>    
                         <details>
-                            <summary> E.LECLERC </summary>
+                            <summary>
+                                <i class="fas fa-cash-register"></i> / <i class="fas fa-bread-slice"></i>
+                                <p> E.LECLERC </p>
+                            </summary>
                             <p> Employé de commerce / Comis de boulangerie </p>
                             <p> février 2017 - Septembre 2018 </p> <p> 6 mois </p>
                             <p> CDI étudiant </p>
                         </details>
                         <details>
-                            <summary> SIACI SAINT HONORE </summary>
+                            <summary>
+                                <i class="fas fa-laptop-code"></i>
+                                <p> SIACI SAINT HONORE </p>
+                            </summary>
                             <p> Développeur Junior </p>
                             <p> Septembre 2017 - Septembre 2017 </p> <p> 2 mois </p>
                             <p> Stage </p>
                         </details>
                         <details>
-                            <summary> MCDONALD </summary>
+                            <summary> 
+                                <i class="fas fa-hamburger"></i> 
+                                <p> MCDONALD </p>
+                            </summary>
                             <p> Employé polyvalent </p>
                             <p> Septembre 2016 - Septembre 2016 </p> <p> 4 mois </p>
                             <p> CDI étudiant </p>
                         </details>
+                        <div class="logo_entreprise" style="display: flex; flex-direction: line;">
+                        </div>
                     </div>
                 </div>
                 <div class="card studies" style="width: 700px; background-color: #FFF; margin: 1% auto; padding: 1%">
                     <div class="test fab"> Etudes
                         <details>
-                            <summary> EPITECH </summary>
+                            <summary>
+                                <i class="fas fa-code"></i>
+                                <p> EPITECH </p>
+                            </summary>
                             <p> Msc PRO (4ème & 5ème année) </p>
                             <p> Septembre 2019 - Septembre 2021 </p> <p> 2 ans </p>
                             <p> RNCP niveau 1 Développeur d'application web & mobile spé Big Data (secondaire IA) </p>
                         </details>
                         <details>
-                            <summary> IUT de Vélizy </summary>
+                            <summary>
+                                <i class="fas fa-graduation-cap"></i>
+                                <p> IUT de Vélizy </p>
+                            </summary>
                             <p> Licence PRO (3ème année) </p>
                             <p> Septembre 2018 - Septembre 2019 </p> <p> 1 ans </p>
                             <p> Licence Professionnel METWEB </p>
                         </details>
                         <details>
-                            <summary> Lycée Jules Ferry </summary>
+                            <summary>
+                                <i class="fas fa-microchip"></i> / <i class="fas fa-network-wired"></i>
+                                <p> Lycée Jules Ferry </p>
+                            </summary>
                             <p> BTS (1ème & 2ème année) </p>
                             <p> Septembre 2016 - Septembre 2018 </p> <p> 2 ans </p>
                             <p> BTS SN-IR </p>
                         </details>
                         <details>
-                            <summary> Lycée AGORA </summary>
+                            <summary> 
+                                <i class="fas fa-digital-tachograph"></i>
+                                <p> Lycée AGORA </p>
+                            </summary>
                             <p> BAC STI2D </p>
                             <p> Septembre 2014 - Septembre 2016 </p> <p> 2 ans </p>
                             <p> Baccalauréat STI2D SIN </p>
@@ -171,7 +203,7 @@
         <section>
             <article class="works" style='background-color: #D5DFE5; width: 100%; display: flex; flex-flow: row wrap; justify-content: center; padding-left: 18%'>
                 <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;"> 
-                    <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                    <img src="../asset/epitech.png" alt="Avatar" style="width: 124px">
                     <div class="container">                    
                         <p> Projets EPITECH </p>
                     </div> 
@@ -215,7 +247,12 @@
                     </div>
                 </div>
                 <div style="background-color: #FFF; width: 400px; height: 275px; border-radius: 20px; margin: 2% 10px"> 
-                <p style="text-align: center;"> Certifications </p>
+                    <p style="text-align: center;"> Certifications </p>
+                    <div>
+                        <i class="fas fa-certificate"></i>
+
+                        <i class="fas fa-certificate"></i>
+                    </div>
                 </div>
             </article>
         </section>

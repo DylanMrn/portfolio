@@ -206,6 +206,15 @@ a {
     content: "\e019";
 }
 
+p {
+    margin: 0;
+    display: inherit;
+}
+
+.fas {
+    color: #175676!important;
+}
+
 /*@media screen and (min-width: 200px) {
     #menu {
         display: none!important;
