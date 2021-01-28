@@ -41,7 +41,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="puce">
+                        <a href="#experience" class="puce">
                             <i class="fas fa-file"> </i>
                         </a>
                     </li>
@@ -53,7 +53,7 @@
                 </ul>
             </nav>
         </header>
-        <section class="first_page" id="profil">
+        <section class="first_page">
             <article style="position: absolute; padding: 2em; left: 50%; top: 50%; transform: translate(-50%, -50%);">
                 <div class="circle"> </div>
                 <h1 style="font-weight: bold; text-align: center; font-family: 'Calibri', sans-serif; font-size: 50px;"> Dylan Marion </h1>
@@ -72,14 +72,14 @@
                 <div>
             </article>
         </section>
-        <section class="about" style='background-color: yellow; width: 100%;'>
+        <section class="about" id="profil" style='background-color: #D5DFE5; width: 100%;'>
             <h1 style="padding-left: 18%"> About ME </h1>
             <article style="padding-left: 18%;">
                 <div style="display: flex; flex-flow: row wrap; width: 100%;">
                     <div class="circle2" style=""> </div>
                     <div class="bubble" style="margin: 1%; padding: 1% 1% 1% 1%; display: flex; flex-flow: row wrap;">
                         <div style="width: 500px; padding-right: 1%"> 
-                            <p> Jeune chef de projet bientôt diplomé d'une école d'Ingénieur <a href=""> EPITECH </a> <i class="fas fa-graduation-cap"></i> <p>
+                            <p> Jeune chef de projet bientôt diplomé d'une école d'Ingénieur <a href="" style="color: black;"> EPITECH </a> <i class="fas fa-graduation-cap"></i> <p>
                             <p> Depuis mes premières années de lycée, je me suis toujours dirigé vers l'informatique grâce à la filiaire STI2D puis un BTS SN-IR </p>
                             <p> Je termine donc actuellement ma formation grâce à un BAC+5, en route vers la vie active ! </p>
                             <button class="button button_read_more" style="display: block; margin: 1% auto"> 
@@ -87,12 +87,7 @@
                             </button>
                         </div>
                         <div style="width: 500px; padding-left: 1%">
-                            <p> Gestion de projet </p>
-                            <progress value="70" max="100" style="width: 100%; height: 30px;">70 %</progress>
-                            <p> Développement WEB (HTML, CSS, JS) </p>
-                            <progress value="70" max="100" style="width: 100%; height: 30px;">70 %</progress>
-                            <p> Communication / Marketing </p>
-                            <progress value="70" max="100" style="width: 100%; height: 30px;">70 %</progress>
+                            
                         </div>
                     </div>
                 </div>
@@ -102,8 +97,8 @@
             </article>
         </section>
         <section>
-            <article class="resume" style='background-color: green; width: 100%; display: flex; margin: 0 auto; flex-flow: row wrap; padding-left: 18%'>
-                <div class="card experience" style="width: 700px; background-color: red; margin: 1% auto; padding: 1%">
+            <article class="resume" id="expérience" style='background-color: #D5DFE5; width: 100%; display: flex; margin: 0 auto; flex-flow: row wrap; padding-left: 18%'>
+                <div class="card experience" style="width: 700px; background-color: #FFF; margin: 1% auto; padding: 1%">
                     <div class="test fab"> Experiences
                         <details>
                             <summary> SIACI SAINT HONORE </summary>
@@ -143,8 +138,8 @@
                         </details>
                     </div>
                 </div>
-                <div class="card studies" style="width: 700px; background-color: blue; margin: 1% auto; padding: 1%">
-                    <div class="test"> Etudes
+                <div class="card studies" style="width: 700px; background-color: #FFF; margin: 1% auto; padding: 1%">
+                    <div class="test fab"> Etudes
                         <details>
                             <summary> EPITECH </summary>
                             <p> Msc PRO (4ème & 5ème année) </p>
@@ -174,18 +169,33 @@
             </article>
         </section>
         <section>
-            <article class="works" style='background-color: purple; width: 100%; display: flex; flex-flow: row wrap; justify-content: center; padding-left: 18%'>
-                <div class="card2" style="margin: 1%; height: 175px;"> Projet EPITECH </div>
-                <div class="card2" style="margin: 1%; height: 175px;"> Réalisation d'un site vitrine </div>
-                <div class="card2" style="margin: 1%; height: 175px;"> Création d'un site de soundbox avec interface d'administration </div>
+            <article class="works" style='background-color: #D5DFE5; width: 100%; display: flex; flex-flow: row wrap; justify-content: center; padding-left: 18%'>
+                <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;"> 
+                    <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                    <div class="container">                    
+                        <p> Projets EPITECH </p>
+                    </div> 
+                </div>
+                <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;"> 
+                    <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                    <div class="container">                    
+                        <p> Réalisation d'un site vitrine</p> 
+                    </div> 
+                </div>
+                <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;"> 
+                    <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                    <div class="container">                    
+                        <p> Création d'un site de soundbox avec interface d'administration </p> 
+                    </div> 
+                </div>
             </article>
         </section>
         <section>
-            <article class="services" style='background-color: blue; width: 100%; display: flex; justify-content: center; flex-flow: row wrap; padding-left: 18%;'>
-                <div style="background-color: yellow; width: 400px; height: 275px; border-radius: 20px; margin: 2% 10px"> 
-                    
+            <article class="services" style='background-color: #D5DFE5; width: 100%; display: flex; justify-content: center; flex-flow: row wrap; padding-left: 18%;'>
+                <div style="background-color: #FFF; width: 400px; height: 275px; border-radius: 20px; margin: 2% 10px"> 
+                <p style="text-align: center;"> Soft Skills / Hard Skills </p>
                 </div>
-                <div style="background-color: yellow; width: 700px; height: 400px; border-radius: 20px; margin: 1% 0%"> 
+                <div style="background-color: #FFF; width: 700px; height: 400px; border-radius: 20px; margin: 1% 0%"> 
                     <p style="text-align: center;"> Gestion de projet </p>
                     <div>
                         <ul>
@@ -195,49 +205,57 @@
                             <li> Création et suivi de planning </li>
                         </ul>
                     </div>
+                    <div style="width: 500px; padding-left: 1%; margin: 0 auto">
+                        <p> Gestion de projet </p>
+                        <progress value="70" max="100" style="width: 100%; height: 30px;">70 %</progress>
+                        <p> Développement WEB (HTML, CSS, JS) </p>
+                        <progress value="70" max="100" style="width: 100%; height: 30px;">70 %</progress>
+                        <p> Communication / Marketing </p>
+                        <progress value="70" max="100" style="width: 100%; height: 30px;">70 %</progress>
+                    </div>
                 </div>
-                <div style="background-color: yellow; width: 400px; height: 275px; border-radius: 20px; margin: 2% 10px"> 
-
+                <div style="background-color: #FFF; width: 400px; height: 275px; border-radius: 20px; margin: 2% 10px"> 
+                <p style="text-align: center;"> Certifications </p>
                 </div>
             </article>
         </section>
         <section>
-            <article class="blog" style='background-color: yellow; width: 100%; display: flow-root; justify-content: center; padding-left: 18%'>
-                <div style="background-color: green; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto">
+            <article class="blog" style='background-color: #D5DFE5; width: 100%; display: flow-root; justify-content: center; padding-left: 18%'>
+                <div style="background-color: #FFF; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto">
                     <a href="blog/article1.php" style="width: 100%; margin: 1%">
-                        <h1 style="display: inline;"> Création du blog </h1>
-                        <p style="margin: 0;"> Auteur : Dylan Marion </p>
+                        <h1 style=""> Création du blog </h1>
+                        <p style="margin: 0; display: inline;"> Auteur : Dylan Marion </p>
                         <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled>
                         <p> Présentation de mon site du PORTFOLIO et des articles du blog... </p>
                     </a>
                 </div>
-                <div style="background-color: green; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto"> 
+                <div style="background-color: #FFF; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto"> 
                     <a href="blog/article1.php" style="width: 100%; margin: 1%">
-                        <h1 style="display: inline;"> Mes musiques et mes séries préférées </h1>
-                        <p style="margin: 0;"> Auteur : Dylan Marion </p>
+                        <h1 style=""> Mes musiques et mes séries préférées </h1>
+                        <p style="margin: 0; display: inline;"> Auteur : Dylan Marion </p>
                         <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled>
                         <p> Découvrer mes musiques/artistes préférées mais aussi mes séries du moment et mes coups de coeur... </p>
                     </a>
                 </div>
-                <div style="background-color: green; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto">
+                <div style="background-color: #FFF; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto">
                     <a href="blog/article1.php" style="width: 100%; margin: 1%">
-                        <h1 style="display: inline;"> Mes méthodes d'apprentissage </h1>
-                        <p style="margin: 0;"> Auteur : Dylan Marion </p>
+                        <h1 style=""> Mes méthodes d'apprentissage </h1>
+                        <p style="margin: 0; display: inline;"> Auteur : Dylan Marion </p>
                         <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled>
                         <p> Présentation des techniques de travail et de mes sites de veilles... </p>
                     </a>
                 </div>
-                <div style="background-color: green; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto"> </div>
+                <div style="background-color: #FFF; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto"> </div>
                 <button class="button button_read_more" style="display: block; margin: 1% auto"> Voir plus ! </button>
             </article>
         </section>
         <section>
-            <article class="contact" style='background-color: green; width: 100%; text-align: center; padding-left: 18%;'>
-                <div style="width: 50%; margin: 0 auto;">
+            <article class="contact" style='background-color: #D5DFE5; width: 100%; text-align: center; padding-left: 18%;'>
+                <div style="width: 70%; margin: 0 auto;">
                     <h1> Contact US </h1>
                     <form action="" method="get" class="form-example">
                         <div class="form-example">
-                            <input class="form_info" type="text" name="name" id="name" placeholder="Name" required>
+                            <input class="form_info f_i_2" type="text" name="name" id="name" placeholder="Name" required>
                             <input class="form_info" type="email" name="email" id="email" placeholder="E-mail" required>
                         </div>
                         <div class="form-example">
