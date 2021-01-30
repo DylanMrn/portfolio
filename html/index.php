@@ -31,7 +31,9 @@
         
     </head>
     <body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fas fa-chevron-up" style='color: white!important'></i>
+    </button>
         <header id="menu" style=''>
             <nav style="">
                 <ul>
@@ -73,21 +75,17 @@
             </article>
         </section>
         <section class="about" id="profil" style='background-color: #D5DFE5; width: 100%;'>
-            <h1 style="padding-left: 18%; padding-top: 3%"> About ME </h1>
-            <article style="padding-left: 18%;">
-                <div style="display: flex; flex-flow: row wrap; width: 100%;">
-                    <div class="circle2" style="margin-top: 50px;"> </div>
+            <h1 style="padding-left: 10%; padding-top: 3%"> About ME </h1>
+            <article style="padding-left: 10%;">
+                <div style="display: flex; flex-flow: row wrap; width: 100%; justify-content: center"> 
                     <div class="bubble" style="margin: 1%; padding: 1% 1% 1% 1%; display: flex; flex-flow: row wrap;">
-                        <div style="width: 500px; padding-right: 1%"> 
-                            <p> Jeune chef de projet bientôt diplomé d'une école d'Ingénieur <a href="" style="color: black;"> EPITECH </a> <i class="fas fa-graduation-cap"></i> <p>
+                        <div style="text-align: center; width: 100%"> 
+                            <p> Jeune chef de projet bientôt diplomé d'une école d'Ingénieur <a href="" style="color: black;"> EPITECH </a> <i class="fas fa-graduation-cap"></i> </p>
                             <p> Depuis mes premières années de lycée, je me suis toujours dirigé vers l'informatique grâce à la filiaire STI2D puis un BTS SN-IR </p>
                             <p> Je termine donc actuellement ma formation grâce à un BAC+5, en route vers la vie active ! </p>
-                            <button class="button button_read_more" style="display: block; margin: 1% auto"> 
+                            <button class="button button_read_more" style="display: block; margin: 2% auto"> 
                                 <a href="" download=""> Download CV ! </a> 
                             </button>
-                        </div>
-                        <div style="width: 500px; padding-left: 1%">
-                            
                         </div>
                     </div>
                 </div>
@@ -97,167 +95,255 @@
             </article>
         </section>
         <section>
-            <article class="resume" id="expérience" style='background-color: #D5DFE5; width: 100%; display: flex; margin: 0 auto; flex-flow: row wrap; padding-left: 18%'>
+            <article class="resume" id="expérience" style='background-color: #D5DFE5; width: 100%; display: flex; margin: 0 auto; flex-flow: row wrap; padding-left: 10%'>
                 <div class="card experience" style="width: 700px; background-color: #FFF; margin: 1% auto; padding: 1%">
-                    <div class="test fab"> Experiences
-                        <details>
+                    <div class="test fab"> 
+                        <h1> Experiences </h1>
+                        <details class="detail_size">
                             <summary>
                                 <i class="fas fa-laptop-code"></i>
-                                <p> SIACI SAINT HONORE </p>
+                                <p class="text_inline"> SIACI SAINT HONORE </p>
                             </summary>
-                            <p> Chef de projet Junior </p>
-                            <p> Septembre 2019 - Aout 2021 </p> <p> 2 ans </p>
-                            <p> Contrat en alternance </p>
+                            <div class="info_perso">
+                                <div class="badge" style="width: 30%">
+                                    Chef de projet Junior
+                                </div>
+                                <p class="text_inline"> Septembre 2019 - Aout 2021 </p> <p class="text_inline"> 2 ans </p>
+                                <p> Contrat en alternance </p>
+                            </div>
                         </details>
-                        <details>
+                        <details class="detail_size">
                             <summary>
                                 <i class="fas fa-laptop-code"></i>
-                                <p> SIACI SAINT HONORE </p>
+                                <p class="text_inline"> SIACI SAINT HONORE </p>
                             </summary>
-                            <p> Développeur Junior </p>
-                            <p> Septembre 2018 - Septembre 2019 </p> <p> 1 ans </p>
-                            <p> Contrat en alternance </p>
+                            <div class="info_perso">
+                                <div class="badge" style="width: 30%">
+                                    Développeur Junior
+                                </div>
+                                <p class="text_inline"> Septembre 2018 - Septembre 2019 </p> <p class="text_inline"> 1 ans </p>
+                                <p> Contrat en alternance </p>
+                            </div>
                         </details>
-                        <details>
+                        <details class="detail_size">
                             <summary>
                                 <i class="fas fa-store"></i>
-                                <p> MONOPRIX </p>
+                                <p class="text_inline"> MONOPRIX </p>
                             </summary>
-                            <p> Employé de commerce </p>
-                            <p> Septembre 2018 - Septembre 2019 </p> <p> 1 ans </p>
-                            <p> CDI étudiant </p>
+                            <div class="info_perso">
+                                <div class="badge" style="width: 30%"> 
+                                    Employé de commerce 
+                                </div>
+                                <p class="text_inline"> Septembre 2018 - Septembre 2019 </p> <p class="text_inline"> 1 ans </p>
+                                <p> CDI étudiant </p>
+                            </div>
                         </details>    
-                        <details>
+                        <details class="detail_size">
                             <summary>
                                 <i class="fas fa-cash-register"></i> / <i class="fas fa-bread-slice"></i>
-                                <p> E.LECLERC </p>
+                                <p class="text_inline"> E.LECLERC </p>
                             </summary>
-                            <p> Employé de commerce / Comis de boulangerie </p>
-                            <p> février 2017 - Septembre 2018 </p> <p> 6 mois </p>
-                            <p> CDI étudiant </p>
+                            <div class="info_perso">
+                                <div class="badge" style="width: 60%"> 
+                                    Employé de commerce / Comis de boulangerie 
+                                </div>
+                                <p class="text_inline"> février 2017 - Septembre 2018 </p> <p class="text_inline"> 6 mois </p>
+                                <p> CDI étudiant </p>
+                            </div>
                         </details>
-                        <details>
+                        <details class="detail_size">
                             <summary>
                                 <i class="fas fa-laptop-code"></i>
-                                <p> SIACI SAINT HONORE </p>
+                                <p class="text_inline"> SIACI SAINT HONORE </p>
                             </summary>
-                            <p> Développeur Junior </p>
-                            <p> Septembre 2017 - Septembre 2017 </p> <p> 2 mois </p>
-                            <p> Stage </p>
+                            <div class="info_perso">
+                                <div class="badge" style="width: 30%"> 
+                                    Développeur Junior 
+                                </div>
+                                <p class="text_inline"> Septembre 2017 - Septembre 2017 </p> <p class="text_inline"> 2 mois </p>
+                                <p> Stage </p>
+                            </div>
                         </details>
-                        <details>
+                        <details class="detail_size">
                             <summary> 
                                 <i class="fas fa-hamburger"></i> 
-                                <p> MCDONALD </p>
+                                <p class="text_inline"> MCDONALD </p>
                             </summary>
-                            <p> Employé polyvalent </p>
-                            <p> Septembre 2016 - Septembre 2016 </p> <p> 4 mois </p>
-                            <p> CDI étudiant </p>
+                            <div class="info_perso">
+                                <div class="badge" style="width: 30%">
+                                    Employé polyvalent 
+                                </div>
+                                <p class="text_inline"> Septembre 2016 - Septembre 2016 </p> <p class="text_inline"> 4 mois </p>
+                                <div class="badge" style="width: 30%: color: green"> 
+                                 CDI étudiant </div>
+                            </div>
                         </details>
                         <div class="logo_entreprise" style="display: flex; flex-direction: line;">
                         </div>
                     </div>
                 </div>
                 <div class="card studies" style="width: 700px; background-color: #FFF; margin: 1% auto; padding: 1%">
-                    <div class="test fab"> Etudes
-                        <details>
+                    <div class="test fab"> 
+                        <h1> Etudes </h1>
+                        <details class="detail_size">
                             <summary>
                                 <i class="fas fa-code"></i>
-                                <p> EPITECH </p>
+                                <p class="text_inline"> EPITECH </p>
                             </summary>
-                            <p> Msc PRO (4ème & 5ème année) </p>
-                            <p> Septembre 2019 - Septembre 2021 </p> <p> 2 ans </p>
-                            <p> RNCP niveau 1 Développeur d'application web & mobile spé Big Data (secondaire IA) </p>
+                            <div class="info_perso">
+                            <div class="badge" style="width: 50%">
+                                Msc PRO (4ème & 5ème année)
+                            </div>
+                                <p class="text_inline"> Septembre 2019 - Septembre 2021 </p> <p class="text_inline"> 2 ans </p>
+                                <p> RNCP niveau 1 Développeur d'application web & mobile spé Big Data </p>
+                            </div>
                         </details>
-                        <details>
+                        <details class="detail_size">
                             <summary>
                                 <i class="fas fa-graduation-cap"></i>
-                                <p> IUT de Vélizy </p>
+                                <p class="text_inline"> IUT de Vélizy </p>
                             </summary>
-                            <p> Licence PRO (3ème année) </p>
-                            <p> Septembre 2018 - Septembre 2019 </p> <p> 1 ans </p>
-                            <p> Licence Professionnel METWEB </p>
+                            <div class="info_perso">
+                                <div class="badge" style="width: 40%"> 
+                                    Licence PRO (3ème année) 
+                                </div>
+                                <p class="text_inline"> Septembre 2018 - Septembre 2019 </p> <p class="text_inline"> 1 ans </p>
+                                <p> Licence Professionnel METWEB </p>
+                            </div>
                         </details>
-                        <details>
+                        <details class="detail_size">
                             <summary>
                                 <i class="fas fa-microchip"></i> / <i class="fas fa-network-wired"></i>
-                                <p> Lycée Jules Ferry </p>
+                                <p class="text_inline"> Lycée Jules Ferry </p>
                             </summary>
-                            <p> BTS (1ème & 2ème année) </p>
-                            <p> Septembre 2016 - Septembre 2018 </p> <p> 2 ans </p>
-                            <p> BTS SN-IR </p>
+                            <div class="info_perso">
+                                <div class="badge" style="width: 40%"> 
+                                    BTS (1ème & 2ème année)
+                                </div>
+                                <p class="text_inline"> Septembre 2016 - Septembre 2018 </p> <p class="text_inline"> 2 ans </p>
+                                <p> BTS SN-IR </p>
+                            </div>
                         </details>
-                        <details>
+                        <details class="detail_size">
                             <summary> 
                                 <i class="fas fa-digital-tachograph"></i>
-                                <p> Lycée AGORA </p>
+                                <p class="text_inline"> Lycée AGORA </p>
                             </summary>
-                            <p> BAC STI2D </p>
-                            <p> Septembre 2014 - Septembre 2016 </p> <p> 2 ans </p>
-                            <p> Baccalauréat STI2D SIN </p>
+                            <div class="info_perso">
+                                <div class="badge" style="width: 20%"> 
+                                    BAC STI2D 
+                                 </div>
+                                <p class="text_inline"> Septembre 2014 - Septembre 2016 </p> <p class="text_inline"> 2 ans </p>
+                                <p> Baccalauréat STI2D SIN </p>
+                            </div>
                         </details>
                     </div>
                 </div>
             </article>
         </section>
         <section>
-            <article class="works" style='background-color: #D5DFE5; width: 100%; display: flex; flex-flow: row wrap; justify-content: center; padding-left: 18%'>
+            <article class="works" style='background-color: #D5DFE5; width: 100%; display: flex; flex-flow: row wrap; justify-content: center; padding-left: 10%'>
                 <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;"> 
                     <img src="../asset/epitech.png" alt="Avatar" style="width: 124px">
                     <div class="container">                    
-                        <p> Projets EPITECH </p>
+                        <p style="text-align: center;"> Projets EPITECH </p>
                     </div> 
                 </div>
                 <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;"> 
                     <img src="img_avatar.png" alt="Avatar" style="width:100%">
                     <div class="container">                    
-                        <p> Réalisation d'un site vitrine</p> 
+                        <p style="text-align: center;"> Réalisation d'un site vitrine</p>
                     </div> 
                 </div>
                 <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;"> 
                     <img src="img_avatar.png" alt="Avatar" style="width:100%">
                     <div class="container">                    
-                        <p> Création d'un site de soundbox avec interface d'administration </p> 
+                        <p style="text-align: center;"> Création d'un site de soundbox avec interface d'administration </p>
                     </div> 
                 </div>
             </article>
         </section>
         <section>
-            <article class="services" style='background-color: #D5DFE5; width: 100%; display: flex; justify-content: center; flex-flow: row wrap; padding-left: 18%;'>
-                <div style="background-color: #FFF; width: 400px; height: 275px; border-radius: 20px; margin: 2% 10px"> 
-                <p style="text-align: center;"> Soft Skills / Hard Skills </p>
+            <article class="services" style='background-color: #D5DFE5; width: 100%; display: flex; flex-flow: row wrap; padding-left: 10%;'>
+                <div style="background-color: #FFF; width: 400px; border-radius: 20px; margin: 2% 10px">
+                    <p style="text-align: center; margin: 3%; font-size: 20px; font-weight: bold; color: #F9A03F;"> Soft Skills </p>
+                    <ul style="padding: 0">
+                        <li>
+                            <i class="fas fa-users"></i> 
+                            <p> Travail en équipe </p>
+                        </li>
+                        <li> 
+                            <i class="fas fa-tachometer-alt"></i>
+                            <p> Dynamique </p>
+                        </li>
+                        <li>
+                            <i class="fas fa-tasks"></i>
+                            <p> Respect des consignes et des délais </p>
+                        </li>
+                        <li> 
+                            <i class="fas fa-fist-raised"></i>
+                            <p> Engagé et force de proposition </p>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-volume"></i>
+                            <p> Bonne communication </p>
+                        </li>
+                    <ul>
                 </div>
                 <div style="background-color: #FFF; width: 700px; height: 400px; border-radius: 20px; margin: 1% 0%"> 
-                    <p style="text-align: center;"> Gestion de projet </p>
+                    <p style="text-align: center; margin: 3%; font-size: 20px; font-weight: bold; color: #F9A03F;"> Gestion de projet </p>
                     <div>
-                        <ul>
-                            <li> Animation de réunion & rédaction de CR de réunion </li>
-                            <li> Réalisation de documentation </li>
-                            <li> Mise en place et utilisation d'outil de gestion de projet (Attlasian, Excel, ...) </li>
-                            <li> Création et suivi de planning </li>
+                        <ul style="padding: 1%;">
+                            <li> 
+                                <p> Animation de réunion & rédaction de CR de réunion </p>
+                                <progress value="70" max="100" style="width: 100%; height: 30px;">70 %</progress>
+                            </li>
+                            <li> 
+                                <p> Réalisation de documentation </p>
+                                <progress value="70" max="100" style="width: 100%; height: 30px;">70 %</progress>
+                            </li>
+                            <li> 
+                                <p> Mise en place et utilisation d'outil de gestion de projet (Attlasian, Excel, ...) </p>
+                                <progress value="70" max="100" style="width: 100%; height: 30px;">70 %</progress>
+                            </li>
+                            <li> 
+                                <p> Création et suivi de planning </p>
+                                <progress value="70" max="100" style="width: 100%; height: 30px;">70 %</progress>
+                            </li>
                         </ul>
                     </div>
-                    <div style="width: 500px; padding-left: 1%; margin: 0 auto">
-                        <p> Gestion de projet </p>
-                        <progress value="70" max="100" style="width: 100%; height: 30px;">70 %</progress>
-                        <p> Développement WEB (HTML, CSS, JS) </p>
-                        <progress value="70" max="100" style="width: 100%; height: 30px;">70 %</progress>
-                        <p> Communication / Marketing </p>
-                        <progress value="70" max="100" style="width: 100%; height: 30px;">70 %</progress>
-                    </div>
                 </div>
-                <div style="background-color: #FFF; width: 400px; height: 275px; border-radius: 20px; margin: 2% 10px"> 
-                    <p style="text-align: center;"> Certifications </p>
+                <div style="background-color: #FFF; width: 400px; border-radius: 20px; margin: 2% 10px"> 
+                    <p style="text-align: center; margin: 3%; font-size: 20px; font-weight: bold; color: #F9A03F;"> Certifications </p>
                     <div>
-                        <i class="fas fa-certificate"></i>
-
-                        <i class="fas fa-certificate"></i>
+                        <div style="margin: 3%;">
+                            <i class="fab fa-microsoft"></i>
+                            <h1 class="text_inline"> Microsoft </h1>
+                            <p> AI-900 </p>
+                            <p> DP-900 </p>
+                        </div>
+                        <div style="margin: 3%;">
+                            <i class="fab fa-google"></i>
+                            <h1 class="text_inline"> Google </h1>
+                            <p> Marketing </p>
+                        </div>
+                        <div style="margin: 3%;">
+                            <i class="fas fa-language"></i>
+                            <h1 class="text_inline"> Anglais </h1>
+                            <p> Toïc </p>
+                        </div>
+                        <div style="margin: 3%;">
+                            <i class="fas fa-briefcase-medical"></i>
+                            <h1 class="text_inline"> Santé </h1>
+                            <p> Psc1 </p>
+                        </div>
                     </div>
                 </div>
             </article>
         </section>
         <section>
-            <article class="blog" style='background-color: #D5DFE5; width: 100%; display: flow-root; justify-content: center; padding-left: 18%'>
+            <article class="blog" style='background-color: #D5DFE5; width: 100%; display: flow-root; padding-left: 10%'>
+            <h1> Blog </h1>
                 <div style="background-color: #FFF; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto">
                     <a href="blog/article1.php" style="width: 100%; margin: 1%">
                         <h1 style=""> Création du blog </h1>
@@ -287,9 +373,9 @@
             </article>
         </section>
         <section>
-            <article class="contact" style='background-color: #D5DFE5; width: 100%; text-align: center; padding-left: 18%;'>
-                <div style="width: 70%; margin: 0 auto;">
-                    <h1> Contact US </h1>
+            <article class="contact" style='background-color: #D5DFE5; width: 100%; padding-left: 10%;'>
+                <h1> Contact US </h1>
+                <div style="width: 70%; margin: 0 auto;">    
                     <form action="" method="get" class="form-example">
                         <div class="form-example">
                             <input class="form_info f_i_2" type="text" name="name" id="name" placeholder="Name" required>
@@ -301,11 +387,11 @@
                         <div class="form-example">
                             <textarea name="message" id="InputMessage" class="form" placeholder="Message" style="height: 100px; margin: 1% 0 1% 0;"></textarea>
                         </div>
-                        <div class="form-example">
-                            <button class="button button_read_more" style=""> Envoie ! </button>
+                        <div class="form-example" style="text-align: center;">
+                            <button class="button button_read_more" style="margin: 2% 0px 6% 0%;"> Envoie ! </button>
                         </div>
                     </form>
-                    </div>
+                </div>
             </article>
         </section>
         <footer id='footer'>
