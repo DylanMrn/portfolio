@@ -119,8 +119,8 @@
                             <summary class="fas">
                                 <p class="text_inline"> SIACI SAINT HONORE </p>
                             </summary>
-                            <div class="card info_perso" style="width: 500px; padding: 1%">
-                                <div class="badge text_inline" style="width: 40%">
+                            <div class="card info_perso" style="padding: 1%">
+                                <div class="badge text_inline">
                                     <i class="fas fa-laptop-code"> </i>
                                     Chef de projet Junior
                                 </div>
@@ -131,13 +131,18 @@
                                     Contrat en alternance
                                 </div>
                             </div>
+                            <div class="card" style=" padding: 1%">
+                                <ul>
+                                    <li> </li>
+                                <ul>
+                            </div>
                         </details>
                         <details class="detail_size mouse_select">
                             <summary class="fas">
                                 <p class="text_inline"> SIACI SAINT HONORE </p>
                             </summary>
-                            <div class="card info_perso" style="width: 500px; padding: 1%">
-                                <div class="badge" style="width: 30%">
+                            <div class="card info_perso" style="padding: 1%">
+                                <div class="badge">
                                     <i class="fas fa-laptop-code"></i>
                                     Développeur Junior
                                 </div>
@@ -149,8 +154,8 @@
                             <summary class="fas">
                                 <p class="text_inline"> MONOPRIX </p>
                             </summary>
-                            <div class="card info_perso" style="width: 500px; padding: 1%">
-                                <div class="badge" style="width: 30%">
+                            <div class="card info_perso" style="padding: 1%">
+                                <div class="badge">
                                     <i class="fas fa-store"></i>
                                     Employé de commerce 
                                 </div>
@@ -162,7 +167,7 @@
                             <summary class="fas">
                                 <p class="text_inline"> E.LECLERC </p>
                             </summary>
-                            <div class="card info_perso" style="width: 500px; padding: 1%">
+                            <div class="card info_perso" style="padding: 1%">
                                 <div class="badge" style="width: 60%">
                                     <i class="fas fa-cash-register"></i> / <i class="fas fa-bread-slice"></i>
                                     Employé de commerce / Comis de boulangerie 
@@ -175,7 +180,7 @@
                             <summary class="fas">
                                 <p class="text_inline"> SIACI SAINT HONORE </p>
                             </summary>
-                            <div class="card info_perso" style="width: 500px; padding: 1%">
+                            <div class="card info_perso" style="padding: 1%">
                                 <div class="badge" style="width: 30%"> 
                                     <i class="fas fa-laptop-code"></i>
                                     Développeur Junior 
@@ -188,7 +193,7 @@
                             <summary class="fas"> 
                                 <p class="text_inline"> MCDONALD </p>
                             </summary>
-                            <div class="card info_perso" style="width: 500px; padding: 1%">
+                            <div class="card info_perso" style="padding: 1%">
                                 <div class="badge" style="width: 30%">
                                     <i class="fas fa-hamburger"></i>
                                     Employé polyvalent 
@@ -208,7 +213,7 @@
                             <summary class="fas">
                                 <p class="text_inline"> EPITECH </p>
                             </summary>
-                            <div class="card info_perso" style="width: 500px; padding: 1%">
+                            <div class="card info_perso" style="padding: 1%">
                             <div class="badge" style="width: 50%">
                                 <i class="fas fa-code"></i>
                                 Msc PRO (4ème & 5ème année)
@@ -221,8 +226,8 @@
                             <summary class="fas">
                                 <p class="text_inline"> IUT de Vélizy </p>
                             </summary>
-                            <div class="card info_perso" style="width: 500px; padding: 1%">
-                                <div class="badge" style="width: 40%">
+                            <div class="card info_perso" style="padding: 1%">
+                                <div class="badge">
                                     <i class="fas fa-graduation-cap"></i>
                                     Licence PRO (3ème année) 
                                 </div>
@@ -234,8 +239,8 @@
                             <summary class="fas">
                                 <p class="text_inline"> Lycée Jules Ferry </p>
                             </summary>
-                            <div class="card info_perso" style="width: 500px; padding: 1%">
-                                <div class="badge" style="width: 50%">
+                            <div class="card info_perso" style="padding: 1%">
+                                <div class="badge">
                                     <i class="fas fa-microchip"></i> / <i class="fas fa-network-wired"></i>
                                     BTS (1ème & 2ème année)
                                 </div>
@@ -247,8 +252,8 @@
                             <summary class="fas">
                                 <p class="text_inline"> Lycée AGORA </p>
                             </summary>
-                            <div class="card info_perso" style="width: 500px; padding: 1%">
-                                <div class="badge" style="width: 20%">
+                            <div class="card info_perso" style="padding: 1%">
+                                <div class="badge">
                                     <i class="fas fa-digital-tachograph"></i>
                                     BAC STI2D 
                                  </div>
@@ -284,7 +289,7 @@
             </article>
         </section>
         <section style='background-color: #D5DFE5; width: 100%;'>
-            <h1 class="title" style="padding-left: 10%; padding-top: 3%;"> Compétences </h1>
+            <h1 class="title" style="padding-top: 3%; padding-left: 10%;"> Compétences </h1>
             <article class="services" style='display: flex; flex-flow: row wrap; padding-left: 10%;'>
                 <div style="background-color: #FFF; width: 400px; border-radius: 20px; margin: 2% 10px;">
                     <p style="text-align: center; margin: 3%; font-size: 20px; font-weight: bold; color: #F9A03F;"> Soft Skills </p>
@@ -311,7 +316,7 @@
                         </li>
                     <ul>
                 </div>
-                <div style="background-color: #FFF; min-width: 500px; border-radius: 20px; margin: 1% 0%; flex: 8;"> 
+                <div style="background-color: #FFF; border-radius: 20px; margin: 1% 0%; flex: 8;"> 
                     <p style="text-align: center; margin: 3%; font-size: 20px; font-weight: bold; color: #F9A03F;"> Gestion de projet </p>
                     <div>
                         <ul style="padding: 1%;">
@@ -364,7 +369,7 @@
         </section>
         <section>
             <article class="blog" style='background-color: #D5DFE5; width: 100%; display: flow-root; padding-left: 10%'>
-            <h1 class="title" style="padding-left: 10%; padding-top: 3%;"> Blog </h1>
+            <h1 class="title" style="padding-top: 3%;"> Blog </h1>
                 <div style="background-color: #FFF; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto">
                     <a href="blog/article1.php" style="width: 100%; margin: 1%">
                         <h1 style=""> Création du blog </h1>
@@ -395,7 +400,7 @@
         </section>
         <section>
             <article class="contact" style='background-color: #D5DFE5; width: 100%; padding-left: 10%;'>
-                <h1 class="title" style="padding-left: 10%; padding-top: 3%;"> Contact US </h1>
+                <h1 class="title" style="padding-top: 3%;"> Contact US </h1>
                 <div style="width: 70%; margin: 0 auto;">    
                     <form action="" method="get" class="form-example">
                         <div class="form-example">

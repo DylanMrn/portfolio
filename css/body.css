@@ -68,7 +68,7 @@ body {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 600px;
+    
     border-radius: 20px;
 }
 
@@ -154,7 +154,6 @@ body {
 }
 
 .info_perso {
-    margin-left: 9%;
     margin-top: 1%;
 }
 
@@ -235,48 +234,42 @@ li {
 
 .badge {
     background: #D5DFE5;
-    height: 25px;
-    width: 50%;
+    padding: 1%;
     border: none;
     border-radius: 10px;
     color: black;
     font-size: 15px!important;
     position: relative;
-    transition: 1s;
     -webkit-tap-highlight-color: transparent;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
 }
 
 .badge_date {
     background: #6B8F71;
-    height: 25px;
-    width: 50%;
+    padding: 1%;
     border: none;
     border-radius: 10px;
     color: black;
     font-size: 15px!important;
     position: relative;
-    transition: 1s;
     -webkit-tap-highlight-color: transparent;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
 }
 
 .badge_contrat {
     background: #D1495B;
-    height: 25px;
-    width: 50%;
+    padding: 1%;
     border: none;
     border-radius: 10px;
     color: black;
     font-size: 15px!important;
     position: relative;
-    transition: 1s;
     -webkit-tap-highlight-color: transparent;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
 }
@@ -334,7 +327,11 @@ details[open] summary:after {
         display: none!important;
     }
 
-    * {
+    article {
         padding-left: 0%!important;
+    }
+
+    .info_perso {
+    
     }
 }
