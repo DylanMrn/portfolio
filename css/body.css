@@ -11,6 +11,7 @@
 
 body {
     margin: 0;
+    font-family: Arial
 }
 
 .circle {
@@ -52,17 +53,6 @@ body {
     background-color: white;
     color: #F9A03F;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.bubble
-{
-   position: relative;
-   min-width: 65%;
-   background: #ffffff;
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   margin-bottom: 5%;
 }
 
 .card {
@@ -201,7 +191,7 @@ textarea{
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .timeline:after {
@@ -274,9 +264,23 @@ li {
     justify-content: center;
 }
 
+.badge_autheur {
+    background: #6B8F71;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-size: 15px!important;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .title:before {
     content: "";
-    background-image: url(../asset/dots-bg.svg);
+    background-image: url(../asset/title_form.svg);
     display: block;
     height: 37px;
     position: absolute;
@@ -297,17 +301,18 @@ summary::-webkit-details-marker {
 }
 
 summary:after {
-    content: "\f077";
+    content: "\f054";
     border-radius: 50%;
     border-color: #175676;
     border-style: solid;
     border-width: 2px;
-    padding: 2px 2px 2px 2px;
+    padding: 1px 3px 1px 4px;
     float: left;
 }
 
 details[open] summary:after {
     content: "\f078";
+    padding: 1px 1px 0px 2px;
 }
 
 /*************************SELECTION SOURIS*************/
@@ -318,6 +323,24 @@ details[open] summary:after {
  -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
  -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
  user-select: none; /* Propriété standard */
+}
+
+/************************SCROLL BAR ************************/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
 }
 
 /****************************************************************************/

@@ -20,14 +20,14 @@
         <title>PORTFOLIO</title>
 
         <!-- CSS -->
-        <link rel="stylesheet" href="../css/banner.css">
-        <link rel="stylesheet" href="../css/body.css">
-        <link rel="stylesheet" href="../css/footer.css">
-        <link rel="stylesheet" href="../css/about.css">
-        <link rel="stylesheet" href="../css/scroll_top.css">
+        <link rel="stylesheet" href="css/banner.css">
+        <link rel="stylesheet" href="css/body.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/scroll_top.css">
 
         <!-- ICONS -->
-        <link rel="stylesheet" href="../icons/css/all.min.css">
+        <link rel="stylesheet" href="icons/css/all.min.css">
         
     </head>
     <body>
@@ -38,33 +38,33 @@
             <nav style="">
                 <ul>
                     <li>
-                        <a href="#profil" class="puce">
-                            <i class="fas fa-home"> </i>
+                        <a href="#info" class="puce">
+                            <i class="fas fa-info"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#experience" class="puce">
-                            <i class="fas fa-file"> </i>
+                        <a href="#exp" class="puce">
+                            <i class="far fa-folder-open"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="puce">
-                            <i class="fas fa-comment"> </i>
+                        <a href="#portflio" class="puce">
+                            <i class="fas fa-mail-bulk"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#profil" class="puce">
-                            <i class="fas fa-home"> </i>
+                        <a href="#compet" class="puce">
+                            <i class="far fa-lightbulb"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#experience" class="puce">
-                            <i class="fas fa-file"> </i>
+                        <a href="#blog_" class="puce">
+                            <i class="fab fa-microblog"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="puce">
-                            <i class="fas fa-comment"> </i>
+                        <a href="#contact_" class="puce">
+                            <i class="far fa-address-book"></i>
                         </a>
                     </li>
                 </ul>
@@ -89,11 +89,11 @@
                 <div>
             </article>
         </section>
-        <section class="about" id="profil" style='background-color: #D5DFE5; width: 100%;'>
-            <h1 class="title" style="padding-left: 10%; padding-top: 3%;"> About ME </h1>
+        <section class="about" id="info" style='background-color: #D5DFE5; width: 100%;'>
+            <h1 class="title" style="padding-left: 10%; padding-top: 3%;"> A propos de moi ! </h1>
             <article style="padding-left: 10%;">
                 <div style="display: flex; flex-flow: row wrap; width: 100%; justify-content: center"> 
-                    <div class="bubble" style="margin: 1%; padding: 1% 1% 1% 1%; display: flex; flex-flow: row wrap;">
+                    <div class="card" style="margin: 1%; padding: 1% 1% 1% 1%; display: flex; flex-flow: row wrap; background-color: white; width: 65%">
                         <div style="text-align: center; width: 100%"> 
                             <p> Jeune chef de projet bientôt diplomé d'une école d'Ingénieur <a href="" style="color: black;"> EPITECH </a> <i class="fas fa-graduation-cap"></i> </p>
                             <p> Depuis mes premières années de lycée, je me suis toujours dirigé vers l'informatique grâce à la filiaire STI2D puis un BTS SN-IR </p>
@@ -116,8 +116,8 @@
                     <div class="icon icon_exp fas fab"> 
                         <h1> Experiences </h1>
                         <details class="detail_size mouse_select">
-                            <summary class="fas">
-                                <p class="text_inline"> SIACI SAINT HONORE </p>
+                            <summary class="fas" style="width: 100%">
+                                <p class="text_inline" style="padding-left: 2%;"> SIACI SAINT HONORE </p>
                             </summary>
                             <div class="card info_perso" style="padding: 1%">
                                 <div class="badge text_inline">
@@ -138,68 +138,113 @@
                             </div>
                         </details>
                         <details class="detail_size mouse_select">
-                            <summary class="fas">
-                                <p class="text_inline"> SIACI SAINT HONORE </p>
+                            <summary class="fas" style="width: 100%">
+                                <p class="text_inline" style="padding-left: 2%;"> SIACI SAINT HONORE </p>
                             </summary>
                             <div class="card info_perso" style="padding: 1%">
                                 <div class="badge">
                                     <i class="fas fa-laptop-code"></i>
                                     Développeur Junior
                                 </div>
-                                <p class="text_inline"> Septembre 2018 - Septembre 2019 </p>
-                                <p> Contrat en alternance </p>
+                                <div class="badge_date text_inline">
+                                    <p class="text_inline" style="font-size: 15px;"> Septembre 2018 - Septembre 2019 </p>
+                                </div>
+                                <div class="badge_contrat text_inline">
+                                    Contrat en alternance
+                                </div>
+                            </div>
+                            <div class="card" style=" padding: 1%">
+                                <ul>
+                                    <li> </li>
+                                <ul>
                             </div>
                         </details>
                         <details class="detail_size mouse_select">
-                            <summary class="fas">
-                                <p class="text_inline"> MONOPRIX </p>
+                            <summary class="fas" style="width: 100%">
+                                <p class="text_inline" style="padding-left: 2%;"> MONOPRIX </p>
                             </summary>
                             <div class="card info_perso" style="padding: 1%">
                                 <div class="badge">
                                     <i class="fas fa-store"></i>
                                     Employé de commerce 
                                 </div>
-                                <p class="text_inline"> Septembre 2018 - Septembre 2019 </p>
-                                <p> CDI étudiant </p>
+                                <div class="badge_date text_inline">
+                                    <p class="text_inline" style="font-size: 15px;"> Septembre 2018 - Septembre 2019 </p> 
+                                </div>
+                                <div class="badge_contrat text_inline">
+                                    CDI étudiant
+                                </div>
+                            </div>
+                            <div class="card" style=" padding: 1%">
+                                <ul>
+                                    <li> </li>
+                                <ul>
                             </div>
                         </details>    
                         <details class="detail_size mouse_select">
-                            <summary class="fas">
-                                <p class="text_inline"> E.LECLERC </p>
+                            <summary class="fas" style="width: 100%">
+                                <p class="text_inline" style="padding-left: 2%;"> E.LECLERC </p>
                             </summary>
                             <div class="card info_perso" style="padding: 1%">
                                 <div class="badge" style="width: 60%">
                                     <i class="fas fa-cash-register"></i> / <i class="fas fa-bread-slice"></i>
                                     Employé de commerce / Comis de boulangerie 
                                 </div>
-                                <p class="text_inline"> février 2017 - Septembre 2018 </p>
-                                <p> CDI étudiant </p>
+                                <div class="badge_date text_inline">
+                                    <p class="text_inline" style="font-size: 15px;"> février 2017 - Septembre 2018 </p> 
+                                </div>
+                                <div class="badge_contrat text_inline">
+                                    CDI étudiant
+                                </div>
+                            </div>
+                            <div class="card" style=" padding: 1%">
+                                <ul>
+                                    <li> </li>
+                                <ul>
                             </div>
                         </details>
                         <details class="detail_size mouse_select">
-                            <summary class="fas">
-                                <p class="text_inline"> SIACI SAINT HONORE </p>
+                            <summary class="fas" style="width: 100%">
+                                <p class="text_inline" style="padding-left: 2%;"> SIACI SAINT HONORE </p>
                             </summary>
                             <div class="card info_perso" style="padding: 1%">
                                 <div class="badge" style="width: 30%"> 
                                     <i class="fas fa-laptop-code"></i>
                                     Développeur Junior 
                                 </div>
-                                <p class="text_inline"> Septembre 2017 - Septembre 2017 </p>
-                                <p> Stage </p>
+                                <div class="badge_date text_inline">
+                                    <p class="text_inline" style="font-size: 15px;"> Septembre 2017 - Septembre 2017 </p>
+                                </div>
+                                <div class="badge_contrat text_inline">
+                                    Stage
+                                </div>
+                            </div>
+                            <div class="card" style=" padding: 1%">
+                                <ul>
+                                    <li> </li>
+                                <ul>
                             </div>
                         </details>
                         <details class="detail_size mouse_select">
-                            <summary class="fas"> 
-                                <p class="text_inline"> MCDONALD </p>
+                            <summary class="fas" style="width: 100%"> 
+                                <p class="text_inline" style="padding-left: 2%;"> MCDONALD </p>
                             </summary>
                             <div class="card info_perso" style="padding: 1%">
                                 <div class="badge" style="width: 30%">
                                     <i class="fas fa-hamburger"></i>
                                     Employé polyvalent 
                                 </div>
-                                <p class="text_inline"> Septembre 2016 - Septembre 2016 </p>
-                                <p> CDI étudiant </p>
+                                <div class="badge_date text_inline">
+                                    <p class="text_inline" style="font-size: 15px;"> Septembre 2016 - Septembre 2016 </p>
+                                </div>
+                                <div class="badge_contrat text_inline">
+                                    CDI étudiant
+                                </div>
+                            </div>
+                            <div class="card" style=" padding: 1%">
+                                <ul>
+                                    <li> </li>
+                                <ul>
                             </div>
                         </details>
                         <div class="logo_entreprise" style="display: flex; flex-direction: line;">
@@ -210,88 +255,124 @@
                     <div class="icon icon_studie fab fas"> 
                         <h1> Etudes </h1>
                         <details class="detail_size mouse_select">
-                            <summary class="fas">
-                                <p class="text_inline"> EPITECH </p>
+                            <summary class="fas" style="width: 100%">
+                                <p class="text_inline" style="padding-left: 2%;"> EPITECH </p>
                             </summary>
                             <div class="card info_perso" style="padding: 1%">
-                            <div class="badge" style="width: 50%">
-                                <i class="fas fa-code"></i>
-                                Msc PRO (4ème & 5ème année)
+                                <div class="badge" style="width: 50%">
+                                    <i class="fas fa-code"></i>
+                                    Msc PRO (4ème & 5ème année)
+                                </div>
+                                <div class="badge_date text_inline">
+                                    <p class="" style="font-size: 15px;"> Septembre 2019 - Septembre 2021 </p> 
+                                </div>
+                                <div class="badge_contrat text_inline">
+                                    RNCP niveau 1 Développeur d'application web & mobile spé Big Data
+                                </div>
                             </div>
-                                <p class="text_inline"> Septembre 2019 - Septembre 2021 </p>
-                                <p> RNCP niveau 1 Développeur d'application web & mobile spé Big Data </p>
+                            <div class="card" style=" padding: 1%">
+                                <ul>
+                                    <li> </li>
+                                <ul>
                             </div>
                         </details>
                         <details class="detail_size mouse_select">
-                            <summary class="fas">
-                                <p class="text_inline"> IUT de Vélizy </p>
+                            <summary class="fas" style="width: 100%">
+                                <p class="text_inline" style="padding-left: 2%;"> IUT DE VELIZY </p>
                             </summary>
                             <div class="card info_perso" style="padding: 1%">
                                 <div class="badge">
                                     <i class="fas fa-graduation-cap"></i>
                                     Licence PRO (3ème année) 
                                 </div>
-                                <p class="text_inline"> Septembre 2018 - Septembre 2019 </p>
-                                <p> Licence Professionnel METWEB </p>
+                                <div class="badge_date text_inline">
+                                    <p class="" style="font-size: 15px;"> Septembre 2018 - Septembre 2019 </p>
+                                </div>
+                                <div class="badge_contrat text_inline">
+                                    Licence Professionnel METWEB 
+                                </div>
+                            </div>
+                            <div class="card" style=" padding: 1%">
+                                <ul>
+                                    <li> </li>
+                                <ul>
                             </div>
                         </details>
                         <details class="detail_size mouse_select">
-                            <summary class="fas">
-                                <p class="text_inline"> Lycée Jules Ferry </p>
+                            <summary class="fas" style="width: 100%">
+                                <p class="text_inline" style="padding-left: 2%;"> LYCEE JULES FERRY </p>
                             </summary>
                             <div class="card info_perso" style="padding: 1%">
                                 <div class="badge">
                                     <i class="fas fa-microchip"></i> / <i class="fas fa-network-wired"></i>
                                     BTS (1ème & 2ème année)
                                 </div>
-                                <p class="text_inline"> Septembre 2016 - Septembre 2018 </p>
-                                <p> BTS SN-IR </p>
+                                <div class="badge_date text_inline">
+                                    <p class="" style="font-size: 15px;"> Septembre 2016 - Septembre 2018 </p>
+                                </div>
+                                <div class="badge_contrat text_inline">
+                                    BTS SN-IR 
+                                </div>
+                            </div>
+                            <div class="card" style=" padding: 1%">
+                                <ul>
+                                    <li> </li>
+                                <ul>
                             </div>
                         </details>
                         <details class="detail_size mouse_select">
-                            <summary class="fas">
-                                <p class="text_inline"> Lycée AGORA </p>
+                            <summary class="fas" style="width: 100%">
+                                <p class="text_inline" style="padding-left: 2%;"> LYCEE AGORA </p>
                             </summary>
                             <div class="card info_perso" style="padding: 1%">
                                 <div class="badge">
                                     <i class="fas fa-digital-tachograph"></i>
                                     BAC STI2D 
-                                 </div>
-                                <p class="text_inline"> Septembre 2014 - Septembre 2016 </p>
-                                <p> Baccalauréat STI2D SIN </p>
+                                </div>
+                                <div class="badge_date text_inline">
+                                    <p class="" style="font-size: 15px;"> Septembre 2014 - Septembre 2016 </p>
+                                </div>
+                                <div class="badge_contrat text_inline"> 
+                                    Baccalauréat STI2D SIN
+                                </div>
+                            </div>
+                            <div class="card" style=" padding: 1%">
+                                <ul>
+                                    <li> </li>
+                                <ul>
                             </div>
                         </details>
                     </div>
                 </div>
             </article>
         </section>
-        <section id='portfolio' style='background-color: #D5DFE5; width: 100%;'>
+        <section id='portflio' style='background-color: #D5DFE5; width: 100%;'>
             <h1 class="title" style="padding-left: 10%; padding-top: 3%"> Portfolio </h1>
             <article class="works" style='display: flex; flex-flow: row wrap; justify-content: center; padding-left: 10%'>
                 <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;"> 
-                    <img src="../asset/epitech.png" alt="Avatar" style="width: 124px">
+                    <img src="https://fakeimg.pl/600x100/ff0000/" style="width: 100%">
                     <div class="container">                    
                         <p style="text-align: center;"> Projets EPITECH </p>
                     </div> 
                 </div>
                 <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;"> 
-                    <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                    <img src="https://fakeimg.pl/600x100/ff0000/" style="width: 100%">
                     <div class="container">                    
                         <p style="text-align: center;"> Réalisation d'un site vitrine</p>
                     </div> 
                 </div>
-                <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;"> 
-                    <img src="img_avatar.png" alt="Avatar" style="width:100%">
+                <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;">
+                    <img src="https://fakeimg.pl/600x100/ff0000/" style="width: 100%">
                     <div class="container">                    
                         <p style="text-align: center;"> Création d'un site de soundbox avec interface d'administration </p>
                     </div> 
                 </div>
             </article>
         </section>
-        <section style='background-color: #D5DFE5; width: 100%;'>
+        <section id="compet" style='background-color: #D5DFE5; width: 100%;'>
             <h1 class="title" style="padding-top: 3%; padding-left: 10%;"> Compétences </h1>
             <article class="services" style='display: flex; flex-flow: row wrap; padding-left: 10%;'>
-                <div style="background-color: #FFF; width: 400px; border-radius: 20px; margin: 2% 10px;">
+                <div class="card" style="background-color: #FFF; width: 400px; border-radius: 20px; margin: 2% 10px;">
                     <p style="text-align: center; margin: 3%; font-size: 20px; font-weight: bold; color: #F9A03F;"> Soft Skills </p>
                     <ul style="padding: 0">
                         <li>
@@ -316,7 +397,7 @@
                         </li>
                     <ul>
                 </div>
-                <div style="background-color: #FFF; border-radius: 20px; margin: 1% 0%; flex: 8;"> 
+                <div class="card" style="background-color: #FFF; border-radius: 20px; margin: 1% 0%; flex: 8;"> 
                     <p style="text-align: center; margin: 3%; font-size: 20px; font-weight: bold; color: #F9A03F;"> Gestion de projet </p>
                     <div>
                         <ul style="padding: 1%;">
@@ -339,55 +420,65 @@
                         </ul>
                     </div>
                 </div>
-                <div style="background-color: #FFF; width: 400px; border-radius: 20px; margin: 2% 10px;"> 
+                <div class="card" style="background-color: #FFF; width: 400px; border-radius: 20px; margin: 2% 10px;"> 
                     <p style="text-align: center; margin: 3%; font-size: 20px; font-weight: bold; color: #F9A03F;"> Certifications </p>
                     <div>
                         <div style="margin: 3%;">
                             <i class="fab fa-microsoft"></i>
                             <h1 class="text_inline"> Microsoft </h1>
-                            <p> AI-900 </p>
-                            <p> DP-900 </p>
+                            <div style="margin: 1% 1% 1% 10%;">
+                                <a href=""> <p> AI-900 </p> </a>
+                                <a href=""> <p> DP-900 </p> </a>
+                            </div>
                         </div>
                         <div style="margin: 3%;">
                             <i class="fab fa-google"></i>
                             <h1 class="text_inline"> Google </h1>
-                            <p> Marketing </p>
+                            <div style="margin: 1% 1% 1% 10%;">
+                                <a href=""> <p> Marketing </p> </a>
+                            </div>
                         </div>
                         <div style="margin: 3%;">
                             <i class="fas fa-language"></i>
                             <h1 class="text_inline"> Anglais </h1>
-                            <p> Toïc </p>
+                            <div style="margin: 1% 1% 1% 10%;">
+                                <a href=""> <p> Toïc </p> </a>
+                            </div>
                         </div>
                         <div style="margin: 3%;">
                             <i class="fas fa-briefcase-medical"></i>
                             <h1 class="text_inline"> Santé </h1>
-                            <p> Psc1 </p>
+                            <div style="margin: 1% 1% 1% 10%;">
+                                <a href=""> <p> Psc1 </p> </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </article>
         </section>
         <section>
-            <article class="blog" style='background-color: #D5DFE5; width: 100%; display: flow-root; padding-left: 10%'>
-            <h1 class="title" style="padding-top: 3%;"> Blog </h1>
-                <div style="background-color: #FFF; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto">
-                    <a href="blog/article1.php" style="width: 100%; margin: 1%">
+            <article id="blog_" class="blog" style='background-color: #D5DFE5; width: 100%; display: flow-root; padding-left: 10%'>
+            <h1 class="title" style="padding-top: 3%; font-size: 25px"> Blog </h1>
+                <div class="card" style="background-color: #FFF; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto">
+                    <a href="html/blog/article1.php" style="width: 100%; margin: 1%">
                         <h1 style=""> Création du blog </h1>
-                        <p style="margin: 0; display: inline;"> Auteur : Dylan Marion </p>
-                        <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled>
+                        <div class="badge_autheur">
+                            <p style="margin: 0; display: inline;"> Auteur : Dylan Marion </p> 
+                        </div>
+                        <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled style="border-radius: 20px">
                         <p> Présentation de mon site du PORTFOLIO et des articles du blog... </p>
                     </a>
                 </div>
-                <div style="background-color: #FFF; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto"> 
-                    <a href="blog/article1.php" style="width: 100%; margin: 1%">
+                <div class="card" style="background-color: #FFF; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto"> 
+                    <a href="html/blog/article1.php" style="width: 100%; margin: 1%">
                         <h1 style=""> Mes musiques et mes séries préférées </h1>
                         <p style="margin: 0; display: inline;"> Auteur : Dylan Marion </p>
                         <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled>
                         <p> Découvrer mes musiques/artistes préférées mais aussi mes séries du moment et mes coups de coeur... </p>
                     </a>
                 </div>
-                <div style="background-color: #FFF; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto">
-                    <a href="blog/article1.php" style="width: 100%; margin: 1%">
+                <div class="card" style="background-color: #FFF; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto">
+                    <a href="html/blog/article1.php" style="width: 100%; margin: 1%">
                         <h1 style=""> Mes méthodes d'apprentissage </h1>
                         <p style="margin: 0; display: inline;"> Auteur : Dylan Marion </p>
                         <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled>
@@ -399,8 +490,8 @@
             </article>
         </section>
         <section>
-            <article class="contact" style='background-color: #D5DFE5; width: 100%; padding-left: 10%;'>
-                <h1 class="title" style="padding-top: 3%;"> Contact US </h1>
+            <article id="contact_" class="contact" style='background-color: #D5DFE5; width: 100%; padding-left: 10%;'>
+                <h1 class="title" style="padding-top: 3%; font-size: 25px"> Contacte-moi ! </h1>
                 <div style="width: 70%; margin: 0 auto;">    
                     <form action="" method="get" class="form-example">
                         <div class="form-example">
@@ -421,10 +512,10 @@
             </article>
         </section>
         <footer id='footer'>
-            <p style="font-size: 12px"> © Dylan Marion 2021. All Rights Reserved. Hand made. <a href="CGU/cgu.php" style="color: #45505b;"> Condition Général d'Utilisation (CGU) </a> </p>
+            <p style="font-size: 12px"> © Dylan Marion 2021. All Rights Reserved. Hand made. <a href="html/CGU/cgu.php" style="color: #45505b;"> Condition Général d'Utilisation (CGU) </a> </p>
         </footer>
 
         <!-- JS -->
-        <script type="text/javascript" src="../js/scroll.js"></script>
+        <script type="text/javascript" src="js/scroll.js"></script>
     </body>
 </html>
