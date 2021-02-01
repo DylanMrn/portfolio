@@ -3,12 +3,14 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="canonical" href="/index.php">
 
         <!-- META DESCRIPTION -->
         <meta name="author" content="Dylan Marion">
         <meta name="title" content="Dylan Marion Portfolio">
         <meta name="description" content="Découvrer mon CV & mon Portfolio | Dylan Marion | 2021">
         <meta property="og:type" content="website">
+        <meta name="og:site_name" content="Dylan Marion">
         <meta property="og:image" content="">
         <meta property="og:description" content="Découvrer mon CV & mon Portfolio | Dylan Marion | 2021">
         <meta property="og:title" content="Dylan Marion Portfolio">
@@ -84,9 +86,7 @@
                 <div style="text-align: center">
                     <button class="button button_hire"> Hire Me ! </button>
                 </div>
-                <div class="logo_scroll">
-                    <i> </i>
-                <div>
+                <a class="scroll-button js-scroll-item" href="#features"><span class="mouse"><span class="wheel"></span></span></a>
             </article>
         </section>
         <section class="about" id="info" style='background-color: #D5DFE5; width: 100%;'>
@@ -463,25 +463,29 @@
                     <a href="html/blog/article1.php" style="width: 100%; margin: 1%">
                         <h1 style=""> Création du blog </h1>
                         <div class="badge_autheur">
-                            <p style="margin: 0; display: inline;"> Auteur : Dylan Marion </p> 
+                            <p style="margin: 0; display: inline; font-size: 15px"> Auteur : Dylan Marion </p> 
                         </div>
-                        <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled style="border-radius: 20px">
+                        <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled style="border-radius: 20px; text-align: center; padding: 0 0 0 3%; background-color: #D1495B; border: none; color: black;">
                         <p> Présentation de mon site du PORTFOLIO et des articles du blog... </p>
                     </a>
                 </div>
                 <div class="card" style="background-color: #FFF; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto"> 
                     <a href="html/blog/article1.php" style="width: 100%; margin: 1%">
                         <h1 style=""> Mes musiques et mes séries préférées </h1>
-                        <p style="margin: 0; display: inline;"> Auteur : Dylan Marion </p>
-                        <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled>
+                        <div class="badge_autheur">
+                            <p style="margin: 0; display: inline; font-size: 15px"> Auteur : Dylan Marion </p> 
+                        </div>
+                        <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled style="border-radius: 20px; text-align: center; padding: 0 0 0 3%; background-color: #D1495B; border: none; color: black;">
                         <p> Découvrer mes musiques/artistes préférées mais aussi mes séries du moment et mes coups de coeur... </p>
                     </a>
                 </div>
                 <div class="card" style="background-color: #FFF; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto">
                     <a href="html/blog/article1.php" style="width: 100%; margin: 1%">
                         <h1 style=""> Mes méthodes d'apprentissage </h1>
-                        <p style="margin: 0; display: inline;"> Auteur : Dylan Marion </p>
-                        <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled>
+                        <div class="badge_autheur">
+                            <p style="margin: 0; display: inline; font-size: 15px"> Auteur : Dylan Marion </p> 
+                        </div>
+                        <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled style="border-radius: 20px; text-align: center; padding: 0 0 0 3%; background-color: #D1495B; border: none; color: black;">
                         <p> Présentation des techniques de travail et de mes sites de veilles... </p>
                     </a>
                 </div>
@@ -491,8 +495,8 @@
         </section>
         <section>
             <article id="contact_" class="contact" style='background-color: #D5DFE5; width: 100%; padding-left: 10%;'>
-                <h1 class="title" style="padding-top: 3%; font-size: 25px"> Contacte-moi ! </h1>
-                <div style="width: 70%; margin: 0 auto;">    
+                <h1 class="title" style="padding-top: 3%; font-size: 25px"> Contactez-moi ! </h1>
+                <div style="width: 70%; margin: 0 auto;">
                     <form action="" method="get" class="form-example">
                         <div class="form-example">
                             <input class="form_info f_i_2" type="text" name="name" id="name" placeholder="Name" required>
@@ -511,6 +515,7 @@
                 </div>
             </article>
         </section>
+        </div>
         <footer id='footer'>
             <p style="font-size: 12px"> © Dylan Marion 2021. All Rights Reserved. Hand made. <a href="html/CGU/cgu.php" style="color: #45505b;"> Condition Général d'Utilisation (CGU) </a> </p>
         </footer>
