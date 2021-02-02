@@ -368,4 +368,10 @@ details[open] summary:after {
     .info_perso {
     
     }
+
+    #close {
+        float: none!important;
+        margin-right: 0px!important;
+    }
+
 }

@@ -4,6 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical">
 
     <!-- META DESCRIPTION -->
     <meta name="author" content="Dylan Marion">
@@ -77,7 +78,7 @@
         </nav>
     </header>
     <section class="first_page">
-        <article style="position: absolute; padding: 2em; left: 50%; top: 50%; transform: translate(-50%, -50%);">
+        <article style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);">
             <div class="circle"> </div>
             <h1 style="font-weight: bold; text-align: center; font-family: 'Calibri', sans-serif; font-size: 50px;"> Dylan Marion </h1>
             <div class="social" style="text-align: center;">
@@ -528,12 +529,12 @@
             </div>
         </article>
     </section>
-    <div id="bandeauCNIL" style="position: fixed; left: 0px; top: 0px; bottom: auto; z-index: 1000; width: 100%; background: rgba(51, 51, 51, 0.9); padding: 2em; text-align: center; color: rgb(255, 255, 255);">
-        En poursuivant votre navigation sur ce site, vous acceptez l'utilisation de cookies pour vous proposer des services et offres adaptés à vos centres d'intérêts et réaliser des statistiques de visite. Pour en savoir plus et paramétrer les cookies.
-        <a href="html/CGU/cgu.php" style="text-decoration:underline; color:#fff;">En savoir plus</a>
-        <span id="close" style="display: block; float: right; margin-right: 4em; background: rgb(51, 51, 51); padding: 0.8em 1em; text-align: center; text-transform: uppercase; color: rgb(255, 255, 255); cursor: pointer;">
+    <div id="bandeauCNIL" style="position: fixed; left: 0px; top: 0px; bottom: auto; z-index: 1000; width: 100%; background: rgba(51, 51, 51, 0.9); padding: 1em; text-align: center; color: rgb(255, 255, 255);">
+        <div id="close" style="float: right; margin-right: 4em; background: rgb(51, 51, 51); padding: 0.8em 1em; text-align: center; text-transform: uppercase; color: rgb(255, 255, 255); cursor: pointer;">
             Fermer X
-        </span>
+        </div>    
+        <p style="font-size: 16px;"> En poursuivant votre navigation sur ce site, vous acceptez l'utilisation de cookies pour vous proposer des services et offres adaptés à vos centres d'intérêts et réaliser des statistiques de visite. Pour en savoir plus et paramétrer les cookies. </p>
+        <a href="html/CGU/cgu.php" style="text-decoration:underline; color:#fff;">En savoir plus</a>
     </div>
     <footer id='footer'>
         <p style="font-size: 12px"> © Dylan Marion 2021. All Rights Reserved. Hand made. <a href="html/CGU/cgu.php" style="color: #45505b;"> Condition Général d'Utilisation (CGU) </a> </p>
