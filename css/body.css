@@ -279,7 +279,7 @@ li {
 
 .title:before {
     content: "";
-    background-image: url(../asset/title_form.svg);
+    background-image: url(../asset/dots-bg.svg);
     display: block;
     height: 37px;
     position: absolute;
@@ -322,38 +322,6 @@ details[open] summary:after {
  -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
  -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
  user-select: none; /* Propriété standard */
-}
-
-.scroll-button {
-    display: block;
-    position: absolute;
-    bottom: 50px;
-    left: calc(50% - 20px);
-    width: 40px;
-    height: 40px;
-}
-
-section.header .scroll-button .mouse {
-    display: block;
-    position: absolute;
-    top: 7px;
-    left: 12px;
-    width: 17px;
-    height: 26px;
-    border-radius: 9px;
-    border: 1px solid #fff;
-}
-
-.scroll-button .mouse .wheel {
-    display: block;
-    position: absolute;
-    top: 2px;
-    left: 7px;
-    width: 1px;
-    height: 4px;
-    background: #fff;
-    animation: scroll-mouse-wheel 1.5s linear infinite;
-    will-change: transform;
 }
 
 /******************************COOKIE *************************/
