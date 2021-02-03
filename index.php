@@ -474,30 +474,30 @@
         <article id="blog_" class="blog" style='background-color: #D5DFE5; width: 100%; display: flow-root; padding-left: 10%'>
             <h1 class="title" style="padding-top: 3%; font-size: 25px"> Blog </h1>
             <div class="card" style="background-color: #FFF; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto">
-                <a href="html/blog/article1.php" style="width: 100%; margin: 1%">
+                <a href="html/blog/article.php#prese" style="width: 100%; margin: 1%">
                     <h1 style=""> Création du blog </h1>
                     <div class="badge_autheur">
-                        <p style="display: inline; font-size: 15px; margin: 1px; padding: 2px;"> Auteur : Dylan Marion </p>
+                        <p style="display: inline; font-size: 13px; padding: 1px 30px 1px 30px;"> Auteur : Dylan Marion </p>
                     </div>
                     <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled style="border-radius: 20px; text-align: center; padding: 0 0 0 3%; background-color: #D1495B; border: none; color: black;">
                     <p> Présentation de mon site du PORTFOLIO et des articles du blog... </p>
                 </a>
             </div>
             <div class="card" style="background-color: #FFF; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto">
-                <a href="html/blog/article1.php" style="width: 100%; margin: 1%">
+                <a href="html/blog/article.php#musiques&films" style="width: 100%; margin: 1%">
                     <h1 style=""> Mes musiques et mes séries préférées </h1>
                     <div class="badge_autheur">
-                        <p style="margin: 1px; padding: 2px; display: inline; font-size: 15px"> Auteur : Dylan Marion </p>
+                        <p style="padding: 1px 30px 1px 30px; display: inline; font-size: 13px"> Auteur : Dylan Marion </p>
                     </div>
                     <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled style="border-radius: 20px; text-align: center; padding: 0 0 0 3%; background-color: #D1495B; border: none; color: black;">
                     <p> Découvrer mes musiques/artistes préférées mais aussi mes séries du moment et mes coups de coeur... </p>
                 </a>
             </div>
             <div class="card" style="background-color: #FFF; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto">
-                <a href="html/blog/article1.php" style="width: 100%; margin: 1%">
+                <a href="html/blog/article.php#methodes" style="width: 100%; margin: 1%">
                     <h1 style=""> Mes méthodes d'apprentissage </h1>
                     <div class="badge_autheur">
-                        <p style=" margin: 1px; padding: 2px; display: inline; font-size: 15px"> Auteur : Dylan Marion </p>
+                        <p style="padding: 1px 30px 1px 30px; display: inline; font-size: 13px"> Auteur : Dylan Marion </p>
                     </div>
                     <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled style="border-radius: 20px; text-align: center; padding: 0 0 0 3%; background-color: #D1495B; border: none; color: black;">
                     <p> Présentation des techniques de travail et de mes sites de veilles... </p>
