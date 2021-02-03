@@ -103,7 +103,7 @@
                         <p> Depuis mes premières années de lycée, je me suis toujours dirigé vers l'informatique grâce à la filiaire STI2D puis un BTS SN-IR </p>
                         <p> Je termine donc actuellement ma formation grâce à un BAC+5, en route vers la vie active ! </p>
                         <button class="button button_read_more" style="display: block; margin: 2% auto">
-                            <a href="" download=""> Download CV ! </a>
+                            <a href="" download="" style="color: white"> Download CV ! </a>
                         </button>
                     </div>
                 </div>
@@ -477,7 +477,7 @@
                 <a href="html/blog/article1.php" style="width: 100%; margin: 1%">
                     <h1 style=""> Création du blog </h1>
                     <div class="badge_autheur">
-                        <p style="margin: 0; display: inline; font-size: 15px"> Auteur : Dylan Marion </p>
+                        <p style="display: inline; font-size: 15px; margin: 1px; padding: 2px;"> Auteur : Dylan Marion </p>
                     </div>
                     <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled style="border-radius: 20px; text-align: center; padding: 0 0 0 3%; background-color: #D1495B; border: none; color: black;">
                     <p> Présentation de mon site du PORTFOLIO et des articles du blog... </p>
@@ -487,7 +487,7 @@
                 <a href="html/blog/article1.php" style="width: 100%; margin: 1%">
                     <h1 style=""> Mes musiques et mes séries préférées </h1>
                     <div class="badge_autheur">
-                        <p style="margin: 0; display: inline; font-size: 15px"> Auteur : Dylan Marion </p>
+                        <p style="margin: 1px; padding: 2px; display: inline; font-size: 15px"> Auteur : Dylan Marion </p>
                     </div>
                     <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled style="border-radius: 20px; text-align: center; padding: 0 0 0 3%; background-color: #D1495B; border: none; color: black;">
                     <p> Découvrer mes musiques/artistes préférées mais aussi mes séries du moment et mes coups de coeur... </p>
@@ -497,7 +497,7 @@
                 <a href="html/blog/article1.php" style="width: 100%; margin: 1%">
                     <h1 style=""> Mes méthodes d'apprentissage </h1>
                     <div class="badge_autheur">
-                        <p style="margin: 0; display: inline; font-size: 15px"> Auteur : Dylan Marion </p>
+                        <p style=" margin: 1px; padding: 2px; display: inline; font-size: 15px"> Auteur : Dylan Marion </p>
                     </div>
                     <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled style="border-radius: 20px; text-align: center; padding: 0 0 0 3%; background-color: #D1495B; border: none; color: black;">
                     <p> Présentation des techniques de travail et de mes sites de veilles... </p>
