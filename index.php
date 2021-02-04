@@ -354,19 +354,19 @@
         <h1 class="title" style="padding-left: 10%; padding-top: 3%"> Portfolio </h1>
         <article class="works" style='display: flex; flex-flow: row wrap; justify-content: center; padding-left: 10%'>
             <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;">
-                <img src="https://fakeimg.pl/600x100/ff0000/" style="width: 100%">
+                <img src="https://fakeimg.pl/600x100/ff0000/" style="width: 100%" alt="">
                 <div class="container">
                     <p style="text-align: center;"> Projets EPITECH </p>
                 </div>
             </div>
             <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;">
-                <img src="https://fakeimg.pl/600x100/ff0000/" style="width: 100%">
+                <img src="https://fakeimg.pl/600x100/ff0000/" style="width: 100%" alt="">
                 <div class="container">
                     <p style="text-align: center;"> Réalisation d'un site vitrine</p>
                 </div>
             </div>
             <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;">
-                <img src="https://fakeimg.pl/600x100/ff0000/" style="width: 100%">
+                <img src="https://fakeimg.pl/600x100/ff0000/" style="width: 100%" alt="">
                 <div class="container">
                     <p style="text-align: center;"> Création d'un site de soundbox avec interface d'administration </p>
                 </div>
@@ -377,7 +377,7 @@
         <h1 class="title" style="padding-top: 3%; padding-left: 10%;"> Compétences </h1>
         <article class="services" style='display: flex; flex-flow: row wrap; padding-left: 10%;'>
             <div class="card" style="background-color: #FFF; width: 400px; border-radius: 20px; margin: 2% 10px;">
-                <p style="text-align: center; margin: 3%; font-size: 20px; font-weight: bold; color: #F9A03F;"> Soft Skills </p>
+                <h1 style="text-align: center; margin: 3%; font-size: 20px; font-weight: bold; color: #F9A03F;"> Soft Skills </h1>
                 <ul style="padding: 0">
                     <li>
                         <i class="fas fa-users"></i>
@@ -402,34 +402,34 @@
                     <ul>
             </div>
             <div class="card" style="background-color: #FFF; border-radius: 20px; margin: 1% 0%; flex: 8;">
-                <p style="text-align: center; margin: 3%; font-size: 20px; font-weight: bold; color: #F9A03F;"> Gestion de projet </p>
+                <h1 style="text-align: center; margin: 3%; font-size: 20px; font-weight: bold; color: #F9A03F;"> Gestion de projet </h1>
                 <div>
                     <ul style="padding: 1%;">
                         <li>
                             <p> Animation de réunion & rédaction de CR de réunion </p>
-                            <progress value="70" max="100" style="width: 100%; height: 30px;">70 %</progress>
+                            <progress value="70" max="100">70 %</progress>
                         </li>
                         <li>
                             <p> Réalisation de documentation </p>
-                            <progress value="70" max="100" style="width: 100%; height: 30px;">70 %</progress>
+                            <progress value="70" max="100">70 %</progress>
                         </li>
                         <li>
                             <p> Mise en place et utilisation d'outil de gestion de projet (Attlasian, Excel, ...) </p>
-                            <progress value="70" max="100" style="width: 100%; height: 30px;">70 %</progress>
+                            <progress value="70" max="100">70 %</progress>
                         </li>
                         <li>
                             <p> Création et suivi de planning </p>
-                            <progress value="70" max="100" style="width: 100%; height: 30px;">70 %</progress>
+                            <progress value="70" max="100">70 %</progress>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="card" style="background-color: #FFF; width: 400px; border-radius: 20px; margin: 2% 10px;">
-                <p style="text-align: center; margin: 3%; font-size: 20px; font-weight: bold; color: #F9A03F;"> Certifications </p>
+                <h1 style="text-align: center; margin: 3%; font-size: 20px; font-weight: bold; color: #F9A03F;"> Certifications </h1>
                 <div>
                     <div style="margin: 3%;">
                         <i class="fab fa-microsoft"></i>
-                        <h1 class="text_inline"> Microsoft </h1>
+                        <p class="text_inline"> Microsoft </p>
                         <div style="margin: 1% 1% 1% 10%;">
                             <a href="">
                                 <p> AI-900 </p>
@@ -441,7 +441,7 @@
                     </div>
                     <div style="margin: 3%;">
                         <i class="fab fa-google"></i>
-                        <h1 class="text_inline"> Google </h1>
+                        <p class="text_inline"> Google </p>
                         <div style="margin: 1% 1% 1% 10%;">
                             <a href="">
                                 <p> Marketing </p>
@@ -450,7 +450,7 @@
                     </div>
                     <div style="margin: 3%;">
                         <i class="fas fa-language"></i>
-                        <h1 class="text_inline"> Anglais </h1>
+                        <p class="text_inline"> Anglais </p>
                         <div style="margin: 1% 1% 1% 10%;">
                             <a href="">
                                 <p> Toïc </p>
@@ -459,7 +459,7 @@
                     </div>
                     <div style="margin: 3%;">
                         <i class="fas fa-briefcase-medical"></i>
-                        <h1 class="text_inline"> Santé </h1>
+                        <p class="text_inline"> Santé </p>
                         <div style="margin: 1% 1% 1% 10%;">
                             <a href="">
                                 <p> Psc1 </p>

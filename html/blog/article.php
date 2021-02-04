@@ -36,6 +36,11 @@
         <nav style="">
             <ul>
                 <li>
+                    <a href="../../" class="puce">
+                        <i class="fas fa-undo"></i>
+                    </a>
+                </li>
+                <li>
                     <a href="#pres" class="puce">
                         <i class="far fa-newspaper"></i>
                     </a>
@@ -71,13 +76,14 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top">
         <i class="fas fa-chevron-up" style='color: white!important'></i>
     </button>
-    <section class="about" style='background-color: #175676; width: 100%; height: 100vh;'>
+    <section class="about" style='background-color: #175676; width: 100%;'>
         <h2 style="margin: 0; text-align: center; color: white;"> Blog Dylan Marion </h2>
-        <h1 class="" style="padding-left: 10%; padding-top: 3%; margin: 0; color: #F9A03F"> Article 1 : Création du blog ! </h1>
+        <h1 class="" style="padding-left: 10%; padding-top: 3%; margin: 0; color: #F9A03F;"> Article 1 : Création du blog ! </h1>
         <article id="pres" style="padding-left: 10%;">
             <div style="display: flex; flex-flow: row wrap; width: 100%; justify-content: center">
-                <div class="card" style="margin: 1%; padding: 1% 1% 1% 1%; display: flex; flex-flow: row wrap; background-color: white; width: 65%">
+                <div class="card" style="margin: 1%; padding: 1% 1% 1% 1%; display: flex; flex-flow: row wrap; background-color: white; width: 90%">
                     <div style="width: 100%">
+                        <i class="fas fa-fire fas-1x"></i>
                         <div class="badge_autheur">
                             <p style="padding: 1px 30px 1px 30px; display: inline; font-size: 13px"> Auteur : Dylan Marion </p>
                         </div>
@@ -98,7 +104,7 @@
         <h1 class="" style="padding-left: 10%; padding-top: 3%; margin: 0; color: #F9A03F"> Article 2 : Mes musiques et films préférées ! </h1>
         <article id="musiques&films" style="padding-left: 10%;">
             <div style="display: flex; flex-flow: row wrap; width: 100%; justify-content: center">
-                <div class="card" style="margin: 1%; padding: 1% 1% 1% 1%; display: flex; flex-flow: row wrap; background-color: white; width: 65%">
+                <div class="card" style="margin: 1%; padding: 1% 1% 1% 1%; display: flex; flex-flow: row wrap; background-color: white; width: 90%">
                     <div style="width: 100%">
                         <div class="badge_autheur">
                             <p style="padding: 1px 30px 1px 30px; display: inline; font-size: 13px"> Auteur : Dylan Marion </p>
@@ -106,7 +112,29 @@
                         <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled style="border-radius: 20px; text-align: center; padding: 0 0 0 3%; background-color: #D1495B; border: none; color: black;">
                     </div>
                     <div style="text-align: center; width: 100%">
-
+                        <p> Parmis mes artistes préférés, je retrouve la variété electro Française : </p>
+                        <ul>
+                            <li>
+                                <h1> Petit Biscuit </h1>
+                                <p> </p>
+                                <p> https://www.youtube.com/watch?v=NsnPI-8sBcI </p>
+                            </li>
+                            <li>
+                                <h1> FKJ </h1>
+                                <p> Mon coup de coeur musical depuis de nombreuses années</p>
+                            </li>
+                        </ul>
+                        <p> Mais mes séries préféré sont aussi rythmé que ma musique. On retrouve :
+                        <ul>
+                            <li> 
+                                <h1> Hawaii 5-0 </h1>
+                            <p> </p>
+                            </li>
+                            <li>
+                                <h1> The Expanse </h1>
+                                <p> Coup de coeur ! Découvert grâce à un collègue, j'ai de suite accroché à l'univers ! </p>
+                            </li>
+                        </ul>
                     </div>
                     <div>
                         <i class="far fa-heart"></i>
@@ -117,7 +145,7 @@
         <h1 class="" style="padding-left: 10%; padding-top: 3%; margin: 0; color: #F9A03F"> Article 3 : Mes méthodes d'apprentissage ! </h1>
         <article id="methodes" style="padding-left: 10%;">
             <div style="display: flex; flex-flow: row wrap; width: 100%; justify-content: center">
-                <div class="card" style="margin: 1%; padding: 1% 1% 1% 1%; display: flex; flex-flow: row wrap; background-color: white; width: 65%">
+                <div class="card" style="margin: 1%; padding: 1% 1% 1% 1%; display: flex; flex-flow: row wrap; background-color: white; width: 90%">
                     <div style="width: 100%">
                         <div class="badge_autheur">
                             <p style="padding: 1px 30px 1px 30px; display: inline; font-size: 13px"> Auteur : Dylan Marion </p>
