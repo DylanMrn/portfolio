@@ -470,8 +470,8 @@
             </div>
         </article>
     </section>
-    <section>
-        <article id="blog_" class="blog" style='background-color: #D5DFE5; width: 100%; display: flow-root; padding-left: 10%'>
+    <section style='background-color: #D5DFE5; width: 100%;'>
+        <article id="blog_" class="blog" style='display: flow-root; padding-left: 10%'>
             <h1 class="title" style="padding-top: 3%; font-size: 25px"> Blog </h1>
             <div class="card" style="background-color: #FFF; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto">
                 <a href="html/blog/article.php#prese" style="width: 100%; margin: 1%">
@@ -507,8 +507,8 @@
             <button class="button button_read_more" style="display: block; margin: 1% auto"> Voir plus ! </button>
         </article>
     </section>
-    <section>
-        <article id="contact_" class="contact" style='background-color: #D5DFE5; width: 100%; padding-left: 10%;'>
+    <section style='background-color: #D5DFE5; width: 100%;'>
+        <article id="contact_" class="contact" style='padding-left: 10%;'>
             <h1 class="title" style="padding-top: 3%; font-size: 25px"> Contactez-moi ! </h1>
             <div style="width: 70%; margin: 0 auto;">
                 <form action="" method="get" class="form-example">
@@ -528,11 +528,39 @@
                 </form>
             </div>
         </article>
+        <article style="padding-left: 10%;">
+            <div style="display: flex; justify-content: center; padding: 1%">
+                <div style="padding: 0 1% 0% 1%; text-align: center">
+                    <i class="far fa-stop-circle"></i>
+                    <p> Dark mode </p>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div style="padding: 0 1% 0% 1%; text-align: center">
+                    <i class="fab fa-windows"></i>
+                    <p> W 90' mode </p>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div style="padding: 0 1% 0% 1%; text-align: center">
+                    <i class="fas fa-gamepad"></i>
+                    <p> Nes mode </p>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+        </article>
     </section>
     <div id="bandeauCNIL" style="position: fixed; left: 0px; top: 0px; bottom: auto; z-index: 1000; width: 100%; background: rgba(51, 51, 51, 0.9); padding: 1em; text-align: center; color: rgb(255, 255, 255);">
         <div id="close" style="float: right; margin-right: 4em; background: rgb(51, 51, 51); padding: 0.8em 1em; text-align: center; text-transform: uppercase; color: rgb(255, 255, 255); cursor: pointer;">
             Fermer X
-        </div>    
+        </div>
         <p style="font-size: 16px;"> En poursuivant votre navigation sur ce site, vous acceptez l'utilisation de cookies pour vous proposer des services et offres adaptés à vos centres d'intérêts et réaliser des statistiques de visite. Pour en savoir plus et paramétrer les cookies. </p>
         <a href="html/CGU/cgu.php" style="text-decoration:underline; color:#fff;">En savoir plus</a>
     </div>
