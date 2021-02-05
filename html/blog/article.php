@@ -117,18 +117,23 @@
                             <li>
                                 <h1> Petit Biscuit </h1>
                                 <p> </p>
-                                <p> https://www.youtube.com/watch?v=NsnPI-8sBcI </p>
+                                <p> <iframe width="560" height="315" src="https://www.youtube.com/embed/NsnPI-8sBcI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </p>
                             </li>
                             <li>
                                 <h1> FKJ </h1>
                                 <p> Mon coup de coeur musical depuis de nombreuses années</p>
                             </li>
+                            <p> Maplaylist Electro du boulot/cours du moment :
+                                https://www.youtube.com/watch?v=FWarV3gUKxQ </p>
+                            <a target="video_iframe" href="https://www.youtube.com/watch?v=FWarV3gUKxQ">
+                                <img src="../../asset/epitech.png" alt="miniature" />
+                            </a>
                         </ul>
                         <p> Mais mes séries préféré sont aussi rythmé que ma musique. On retrouve :
                         <ul>
-                            <li> 
+                            <li>
                                 <h1> Hawaii 5-0 </h1>
-                            <p> </p>
+                                <p> </p>
                             </li>
                             <li>
                                 <h1> The Expanse </h1>

@@ -354,19 +354,19 @@
         <h1 class="title" style="padding-left: 10%; padding-top: 3%"> Portfolio </h1>
         <article class="works" style='display: flex; flex-flow: row wrap; justify-content: center; padding-left: 10%'>
             <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;">
-                <img src="https://fakeimg.pl/600x100/ff0000/" style="width: 100%" alt="">
+                <img src="asset/ordi.jpg" style="width: 600px; height: 100px; border-radius: 20px 20px 0 0;" alt="">
                 <div class="container">
                     <p style="text-align: center;"> Projets EPITECH </p>
                 </div>
             </div>
             <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;">
-                <img src="https://fakeimg.pl/600x100/ff0000/" style="width: 100%" alt="">
+                <img src="https://fakeimg.pl/600x100/ff0000/" style="width: 100%;border-radius: 20px 20px 0 0;" alt="">
                 <div class="container">
                     <p style="text-align: center;"> Réalisation d'un site vitrine</p>
                 </div>
             </div>
             <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;">
-                <img src="https://fakeimg.pl/600x100/ff0000/" style="width: 100%" alt="">
+                <img src="https://fakeimg.pl/600x100/ff0000/" style="width: 100%; border-radius: 20px 20px 0 0;" alt="">
                 <div class="container">
                     <p style="text-align: center;"> Création d'un site de soundbox avec interface d'administration </p>
                 </div>
