@@ -331,8 +331,16 @@ h1 {
     transition: .4s;
 }
 
-input:checked+.slider {
+.windows:checked+.slider {
     background-color: #0047bb;
+}
+
+.nintendo:checked+.slider {
+    background-color: #fe0016;
+}
+
+.dark:checked+.slider {
+    background-color: black;
 }
 
 input:checked+.slider:before {

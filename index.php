@@ -523,7 +523,7 @@
                         <textarea name="message" id="InputMessage" class="form" placeholder="Message" style="height: 100px; margin: 1% 0 1% 0;"></textarea>
                     </div>
                     <div class="form-example" style="text-align: center;">
-                        <button class="button button_read_more" style="margin: 2% 0px 6% 0%;"> Envoie ! </button>
+                        <button class="button button_read_more" style="margin: 2% 0px 3% 0%;"> Envoie ! </button>
                     </div>
                 </form>
             </div>
@@ -534,15 +534,15 @@
                     <i class="far fa-stop-circle"></i>
                     <p> Dark mode </p>
                     <label class="switch">
-                        <input type="checkbox">
+                        <input type="checkbox" class="dark">
                         <span class="slider round"></span>
                     </label>
                 </div>
                 <div style="padding: 0 1% 0% 1%; text-align: center">
                     <i class="fab fa-windows"></i>
-                    <p> W 90' mode </p>
+                    <p> 98' mode </p>
                     <label class="switch">
-                        <input type="checkbox">
+                        <input type="checkbox" class="windows">
                         <span class="slider round"></span>
                     </label>
                 </div>
@@ -550,10 +550,14 @@
                     <i class="fas fa-gamepad"></i>
                     <p> Nes mode </p>
                     <label class="switch">
-                        <input type="checkbox">
+                        <input type="checkbox" class="nintendo">
                         <span class="slider round"></span>
                     </label>
                 </div>
+            </div>
+            <div style="text-align: center;">
+                <i class="fas fa-info-circle"></i>
+                <p style="text-align: center;font-size: 12px; display: inline;"> Vous pouvez activer seulement un seul mode ! :) </p>
             </div>
         </article>
     </section>
