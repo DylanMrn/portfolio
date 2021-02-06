@@ -93,11 +93,11 @@
             </div>
         </article>
     </section>
-    <section class="about" id="info" style='background-color: #D5DFE5; width: 100%;'>
+    <section class="about" id="info" style='background-color: #F9F9FF; width: 100%;'>
         <h1 class="title" style="padding-left: 10%; padding-top: 3%;"> A propos de moi ! </h1>
         <article style="padding-left: 10%;">
             <div style="display: flex; flex-flow: row wrap; width: 100%; justify-content: center">
-                <div class="card" style="margin: 1%; padding: 1% 1% 1% 1%; display: flex; flex-flow: row wrap; background-color: white; width: 65%">
+                <div class="card" style="margin: 1%; padding: 1% 1% 1% 1%; display: flex; flex-flow: row wrap; background-color: white; width: 75%">
                     <div style="text-align: center; width: 100%">
                         <p> Jeune chef de projet bientôt diplomé d'une école d'Ingénieur <a href="" style="color: black;"> EPITECH </a> <i class="fas fa-graduation-cap"></i> </p>
                         <p> Depuis mes premières années de lycée, je me suis toujours dirigé vers l'informatique grâce à la filiaire STI2D puis un BTS SN-IR </p>
@@ -113,7 +113,7 @@
             </div>
         </article>
     </section>
-    <section id='exp' style='background-color: #D5DFE5; width: 100%;'>
+    <section id='exp' style='background-color: #F9F9FF; width: 100%;'>
         <h1 class="title" style="padding-left: 10%; padding-top: 3%"> Experience </h1>
         <article class="resume" id="expérience" style='display: flex; margin: 0 auto; flex-flow: row wrap; padding-left: 10%'>
             <div class="card experience" style="width: 700px; background-color: #FFF; margin: 1% auto; padding: 1%">
@@ -350,11 +350,11 @@
             </div>
         </article>
     </section>
-    <section id='portflio' style='background-color: #D5DFE5; width: 100%;'>
+    <section id='portflio' style='background-color: #F9F9FF; width: 100%;'>
         <h1 class="title" style="padding-left: 10%; padding-top: 3%"> Portfolio </h1>
         <article class="works" style='display: flex; flex-flow: row wrap; justify-content: center; padding-left: 10%'>
             <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;">
-                <img src="asset/ordi.jpg" style="width: 600px; height: 100px; border-radius: 20px 20px 0 0;" alt="">
+                <img src="https://fakeimg.pl/600x100/ff0000/" style="width: 600px; height: 100px; border-radius: 20px 20px 0 0;" alt="">
                 <div class="container">
                     <p style="text-align: center;"> Projets EPITECH </p>
                 </div>
@@ -373,7 +373,7 @@
             </div>
         </article>
     </section>
-    <section id="compet" style='background-color: #D5DFE5; width: 100%;'>
+    <section id="compet" style='background-color: #F9F9FF; width: 100%;'>
         <h1 class="title" style="padding-top: 3%; padding-left: 10%;"> Compétences </h1>
         <article class="services" style='display: flex; flex-flow: row wrap; padding-left: 10%;'>
             <div class="card" style="background-color: #FFF; width: 400px; border-radius: 20px; margin: 2% 10px;">
@@ -470,47 +470,47 @@
             </div>
         </article>
     </section>
-    <section style='background-color: #D5DFE5; width: 100%;'>
+    <section style='background-color: #F9F9FF; width: 100%;'>
         <article id="blog_" class="blog" style='display: flow-root; padding-left: 10%'>
             <h1 class="title" style="padding-top: 3%; font-size: 25px"> Blog </h1>
-            <div class="card" style="background-color: #FFF; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto">
+            <div class="card" style="background-color: #FFF; width: 90%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto">
                 <a href="html/blog/article.php#prese" style="width: 100%; margin: 1%">
-                    <h1 style=""> Création du blog </h1>
+                    <h1 style="font-size: 20px"> Création du blog </h1>
                     <div class="badge_autheur">
                         <p style="display: inline; font-size: 13px; padding: 1px 30px 1px 30px;"> Auteur : Dylan Marion </p>
                     </div>
                     <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled style="border-radius: 20px; text-align: center; padding: 0 0 0 3%; background-color: #D1495B; border: none; color: black;">
-                    <p> Présentation de mon site du PORTFOLIO et des articles du blog... </p>
+                    <p style="margin: 10px 0;"> Présentation de mon site du PORTFOLIO et des articles du blog... </p>
                 </a>
             </div>
-            <div class="card" style="background-color: #FFF; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto">
+            <div class="card" style="background-color: #FFF; width: 90%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto">
                 <a href="html/blog/article.php#musiques&films" style="width: 100%; margin: 1%">
-                    <h1 style=""> Mes musiques et mes séries préférées </h1>
+                    <h1 style="font-size: 20px"> Mes musiques et mes séries préférées </h1>
                     <div class="badge_autheur">
                         <p style="padding: 1px 30px 1px 30px; display: inline; font-size: 13px"> Auteur : Dylan Marion </p>
                     </div>
                     <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled style="border-radius: 20px; text-align: center; padding: 0 0 0 3%; background-color: #D1495B; border: none; color: black;">
-                    <p> Découvrer mes musiques/artistes préférées mais aussi mes séries du moment et mes coups de coeur... </p>
+                    <p style="margin: 10px 0;"> Découvrer mes musiques/artistes préférées mais aussi mes séries du moment et mes coups de coeur... </p>
                 </a>
             </div>
-            <div class="card" style="background-color: #FFF; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto">
+            <div class="card" style="background-color: #FFF; width: 90%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto">
                 <a href="html/blog/article.php#methodes" style="width: 100%; margin: 1%">
-                    <h1 style=""> Mes méthodes d'apprentissage </h1>
+                    <h1 style="font-size: 20px"> Mes méthodes d'apprentissage </h1>
                     <div class="badge_autheur">
                         <p style="padding: 1px 30px 1px 30px; display: inline; font-size: 13px"> Auteur : Dylan Marion </p>
                     </div>
                     <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled style="border-radius: 20px; text-align: center; padding: 0 0 0 3%; background-color: #D1495B; border: none; color: black;">
-                    <p> Présentation des techniques de travail et de mes sites de veilles... </p>
+                    <p style="margin: 10px 0;"> Présentation des techniques de travail et de mes sites de veilles... </p>
                 </a>
             </div>
-            <div style="background-color: #FFF; width: 70%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto"> </div>
+            <div style="background-color: #FFF; width: 90%; display: flex; flex-flow: row wrap; height: 100px; border-radius: 20px; margin: 1% auto"> </div>
             <button class="button button_read_more" style="display: block; margin: 1% auto"> Voir plus ! </button>
         </article>
     </section>
-    <section style='background-color: #D5DFE5; width: 100%;'>
+    <section style='background-color: #F9F9FF; width: 100%;'>
         <article id="contact_" class="contact" style='padding-left: 10%;'>
             <h1 class="title" style="padding-top: 3%; font-size: 25px"> Contactez-moi ! </h1>
-            <div style="width: 70%; margin: 0 auto;">
+            <div style="width: 60%; margin: 0 auto;">
                 <form action="" method="get" class="form-example">
                     <div class="form-example">
                         <input class="form_info f_i_2" type="text" name="name" id="name" placeholder="Name" required>
