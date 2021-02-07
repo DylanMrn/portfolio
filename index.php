@@ -79,7 +79,9 @@
     </header>
     <section class="first_page">
         <article style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);">
-            <div class="circle"> </div>
+            <div class="circle">
+                <img width="200px" src="asset/photo.png"/>    
+            </div>
             <h1 style="font-weight: bold; text-align: center; font-family: 'Calibri', sans-serif; font-size: 50px;"> Dylan Marion </h1>
             <div class="social" style="text-align: center;">
                 <a href="https://github.com/DylanMrn" target="_blank" rel="noopener noreferrer" class="github" style="font-size: 200%; color: white; margin-right: 2%">
@@ -97,7 +99,7 @@
         <h1 class="title" style="padding-left: 10%; padding-top: 3%;"> A propos de moi ! </h1>
         <article style="padding-left: 10%;">
             <div style="display: flex; flex-flow: row wrap; width: 100%; justify-content: center">
-                <div class="card" style="margin: 1%; padding: 1% 1% 1% 1%; display: flex; flex-flow: row wrap; background-color: white; width: 75%">
+                <div class="card" style="margin: 1%; padding: 1% 1% 1% 1%; display: flex; flex-flow: row wrap; background-color: white; width: 90%">
                     <div style="text-align: center; width: 100%">
                         <p> Jeune chef de projet bientôt diplomé d'une école d'Ingénieur <a href="" style="color: black;"> EPITECH </a> <i class="fas fa-graduation-cap"></i> </p>
                         <p> Depuis mes premières années de lycée, je me suis toujours dirigé vers l'informatique grâce à la filiaire STI2D puis un BTS SN-IR </p>
@@ -117,7 +119,7 @@
         <h1 class="title" style="padding-left: 10%; padding-top: 3%"> Experience </h1>
         <article class="resume" id="expérience" style='display: flex; margin: 0 auto; flex-flow: row wrap; padding-left: 10%'>
             <div class="card experience" style="width: 700px; background-color: #FFF; margin: 1% auto; padding: 1%">
-                <div class="icon icon_exp fas fab">
+                <div class="">
                     <h1> Experiences </h1>
                     <details class="detail_size mouse_select">
                         <summary class="fas" style="width: 100%">
@@ -256,7 +258,7 @@
                 </div>
             </div>
             <div class="card studies" style="width: 700px; background-color: #FFF; margin: 1% auto; padding: 1%">
-                <div class="icon icon_studie fab fas">
+                <div class="">
                     <h1> Etudes </h1>
                     <details class="detail_size mouse_select">
                         <summary class="fas" style="width: 100%">
@@ -354,21 +356,33 @@
         <h1 class="title" style="padding-left: 10%; padding-top: 3%"> Portfolio </h1>
         <article class="works" style='display: flex; flex-flow: row wrap; justify-content: center; padding-left: 10%'>
             <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;">
-                <img src="https://fakeimg.pl/600x100/ff0000/" style="width: 600px; height: 100px; border-radius: 20px 20px 0 0;" alt="">
+                
                 <div class="container">
                     <p style="text-align: center;"> Projets EPITECH </p>
                 </div>
             </div>
             <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;">
-                <img src="https://fakeimg.pl/600x100/ff0000/" style="width: 100%;border-radius: 20px 20px 0 0;" alt="">
+                <img src="" style="width: 100%;border-radius: 20px 20px 0 0;" alt="">
                 <div class="container">
                     <p style="text-align: center;"> Réalisation d'un site vitrine</p>
                 </div>
             </div>
             <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;">
-                <img src="https://fakeimg.pl/600x100/ff0000/" style="width: 100%; border-radius: 20px 20px 0 0;" alt="">
+                <img src="" style="width: 100%; border-radius: 20px 20px 0 0;" alt="">
                 <div class="container">
-                    <p style="text-align: center;"> Création d'un site de soundbox avec interface d'administration </p>
+                    <p style="text-align: center;"> Soon </p>
+                </div>
+            </div>
+            <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;">
+                <img src="" style="width: 100%; border-radius: 20px 20px 0 0;" alt="">
+                <div class="container">
+                    <p style="text-align: center;"> Soon </p>
+                </div>
+            </div>
+            <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;">
+                <img src="" style="width: 100%; border-radius: 20px 20px 0 0;" alt="">
+                <div class="container">
+                    <p style="text-align: center;"> Soon </p>
                 </div>
             </div>
         </article>
