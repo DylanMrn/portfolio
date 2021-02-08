@@ -67,8 +67,8 @@ body {
 .card2 {
     box-shadow: 0 5px 20px 0 rgb(69 67 96 / 10%);
     border-radius: 20px;
-    flex: 0 0 15%;
-    max-width: 15%;
+    flex: 0 0 200px;
+    max-width: 200px;
 }
 
 .card2:hover {
@@ -275,15 +275,6 @@ li {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-}
-
-.title:before {
-    content: "";
-    background-image: url(../asset/dots-bg.svg);
-    display: block;
-    height: 37px;
-    position: absolute;
-    width: 37px;
 }
 
 h1 {

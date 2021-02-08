@@ -120,7 +120,7 @@
         <article class="resume" id="expérience" style='display: flex; margin: 0 auto; flex-flow: row wrap; padding-left: 10%'>
             <div class="card experience" style="width: 700px; background-color: #FFF; margin: 1% auto; padding: 1%">
                 <div class="">
-                    <h1> Experiences </h1>
+                    <h1> Entreprises </h1>
                     <details class="detail_size mouse_select">
                         <summary class="fas" style="width: 100%">
                             <p class="text_inline" style="padding-left: 2%;"> SIACI SAINT HONORE </p>
@@ -356,31 +356,30 @@
         <h1 class="title" style="padding-left: 10%; padding-top: 3%"> Portfolio </h1>
         <article class="works" style='display: flex; flex-flow: row wrap; justify-content: center; padding-left: 10%'>
             <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;">
-                
                 <div class="container">
                     <p style="text-align: center;"> Projets EPITECH </p>
                 </div>
             </div>
             <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;">
-                <img src="" style="width: 100%;border-radius: 20px 20px 0 0;" alt="">
+                <img src="" style="border-radius: 20px 20px 0 0;" alt="">
                 <div class="container">
                     <p style="text-align: center;"> Réalisation d'un site vitrine</p>
                 </div>
             </div>
             <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;">
-                <img src="" style="width: 100%; border-radius: 20px 20px 0 0;" alt="">
+                <img src="" style=" border-radius: 20px 20px 0 0;" alt="">
                 <div class="container">
                     <p style="text-align: center;"> Soon </p>
                 </div>
             </div>
             <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;">
-                <img src="" style="width: 100%; border-radius: 20px 20px 0 0;" alt="">
+                <img src="" style=" border-radius: 20px 20px 0 0;" alt="">
                 <div class="container">
                     <p style="text-align: center;"> Soon </p>
                 </div>
             </div>
             <div class="card2" style="margin: 1%; height: 175px; background-color: #FFF;">
-                <img src="" style="width: 100%; border-radius: 20px 20px 0 0;" alt="">
+                <img src="" style=" border-radius: 20px 20px 0 0;" alt="">
                 <div class="container">
                     <p style="text-align: center;"> Soon </p>
                 </div>
@@ -579,7 +578,7 @@
         <div id="close" style="float: right; margin-right: 4em; background: rgb(51, 51, 51); padding: 0.8em 1em; text-align: center; text-transform: uppercase; color: rgb(255, 255, 255); cursor: pointer;">
             Fermer X
         </div>
-        <p style="font-size: 16px;"> En poursuivant votre navigation sur ce site, vous acceptez l'utilisation de cookies pour vous proposer des services et offres adaptés à vos centres d'intérêts et réaliser des statistiques de visite. Pour en savoir plus et paramétrer les cookies. </p>
+        <p style="font-size: 16px;"> En poursuivant votre navigation sur ce site, vous acceptez l'utilisation de cookies pour vous proposer des services et offres adaptés à vos centres d'intérêts et réaliser des statistiques de visite. Pour en savoir plus, consulter les CGU. </p>
         <a href="html/CGU/cgu.php" style="text-decoration:underline; color:#fff;">En savoir plus</a>
     </div>
     <footer id='footer'>
