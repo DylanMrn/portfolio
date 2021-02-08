@@ -80,7 +80,7 @@
     <section class="first_page">
         <article style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);">
             <div class="circle">
-                <img width="200px" src="asset/photo.png"/>    
+                <img width="200px" src="asset/photo.png" />
             </div>
             <h1 style="font-weight: bold; text-align: center; font-family: 'Calibri', sans-serif; font-size: 50px;"> Dylan Marion </h1>
             <div class="social" style="text-align: center;">
@@ -137,11 +137,6 @@
                                 Contrat en alternance
                             </div>
                         </div>
-                        <div class="card" style=" padding: 1%">
-                            <ul>
-                                <li> </li>
-                                <ul>
-                        </div>
                     </details>
                     <details class="detail_size mouse_select">
                         <summary class="fas" style="width: 100%">
@@ -158,11 +153,6 @@
                             <div class="badge_contrat text_inline">
                                 Contrat en alternance
                             </div>
-                        </div>
-                        <div class="card" style=" padding: 1%">
-                            <ul>
-                                <li> </li>
-                                <ul>
                         </div>
                     </details>
                     <details class="detail_size mouse_select">
@@ -181,11 +171,6 @@
                                 CDI étudiant
                             </div>
                         </div>
-                        <div class="card" style=" padding: 1%">
-                            <ul>
-                                <li> </li>
-                                <ul>
-                        </div>
                     </details>
                     <details class="detail_size mouse_select">
                         <summary class="fas" style="width: 100%">
@@ -202,11 +187,6 @@
                             <div class="badge_contrat text_inline">
                                 CDI étudiant
                             </div>
-                        </div>
-                        <div class="card" style=" padding: 1%">
-                            <ul>
-                                <li> </li>
-                                <ul>
                         </div>
                     </details>
                     <details class="detail_size mouse_select">
@@ -225,11 +205,6 @@
                                 Stage
                             </div>
                         </div>
-                        <div class="card" style=" padding: 1%">
-                            <ul>
-                                <li> </li>
-                                <ul>
-                        </div>
                     </details>
                     <details class="detail_size mouse_select">
                         <summary class="fas" style="width: 100%">
@@ -246,11 +221,6 @@
                             <div class="badge_contrat text_inline">
                                 CDI étudiant
                             </div>
-                        </div>
-                        <div class="card" style=" padding: 1%">
-                            <ul>
-                                <li> </li>
-                                <ul>
                         </div>
                     </details>
                     <div class="logo_entreprise" style="display: flex; flex-direction: line;">
@@ -276,11 +246,6 @@
                                 RNCP niveau 1 Développeur d'application web & mobile spé Big Data
                             </div>
                         </div>
-                        <div class="card" style=" padding: 1%">
-                            <ul>
-                                <li> </li>
-                                <ul>
-                        </div>
                     </details>
                     <details class="detail_size mouse_select">
                         <summary class="fas" style="width: 100%">
@@ -297,11 +262,6 @@
                             <div class="badge_contrat text_inline">
                                 Licence Professionnel METWEB
                             </div>
-                        </div>
-                        <div class="card" style=" padding: 1%">
-                            <ul>
-                                <li> </li>
-                                <ul>
                         </div>
                     </details>
                     <details class="detail_size mouse_select">
@@ -320,11 +280,6 @@
                                 BTS SN-IR
                             </div>
                         </div>
-                        <div class="card" style=" padding: 1%">
-                            <ul>
-                                <li> </li>
-                                <ul>
-                        </div>
                     </details>
                     <details class="detail_size mouse_select">
                         <summary class="fas" style="width: 100%">
@@ -341,11 +296,6 @@
                             <div class="badge_contrat text_inline">
                                 Baccalauréat STI2D SIN
                             </div>
-                        </div>
-                        <div class="card" style=" padding: 1%">
-                            <ul>
-                                <li> </li>
-                                <ul>
                         </div>
                     </details>
                 </div>
@@ -492,7 +442,7 @@
                     <div class="badge_autheur">
                         <p style="display: inline; font-size: 13px; padding: 1px 30px 1px 30px;"> Auteur : Dylan Marion </p>
                     </div>
-                    <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled style="border-radius: 20px; text-align: center; padding: 0 0 0 3%; background-color: #D1495B; border: none; color: black;">
+                    <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled style="border-radius: 20px; text-align: center; padding: 0 0 0 3%; background-color: #F9F9FF; border: none; color: black;">
                     <p style="margin: 10px 0;"> Présentation de mon site du PORTFOLIO et des articles du blog... </p>
                 </a>
             </div>
@@ -502,7 +452,7 @@
                     <div class="badge_autheur">
                         <p style="padding: 1px 30px 1px 30px; display: inline; font-size: 13px"> Auteur : Dylan Marion </p>
                     </div>
-                    <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled style="border-radius: 20px; text-align: center; padding: 0 0 0 3%; background-color: #D1495B; border: none; color: black;">
+                    <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled style="border-radius: 20px; text-align: center; padding: 0 0 0 3%; background-color: #F9F9FF; border: none; color: black;">
                     <p style="margin: 10px 0;"> Découvrer mes musiques/artistes préférées mais aussi mes séries du moment et mes coups de coeur... </p>
                 </a>
             </div>
@@ -512,7 +462,7 @@
                     <div class="badge_autheur">
                         <p style="padding: 1px 30px 1px 30px; display: inline; font-size: 13px"> Auteur : Dylan Marion </p>
                     </div>
-                    <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled style="border-radius: 20px; text-align: center; padding: 0 0 0 3%; background-color: #D1495B; border: none; color: black;">
+                    <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-01-24T19:30" disabled style="border-radius: 20px; text-align: center; padding: 0 0 0 3%; background-color: #F9F9FF; border: none; color: black;">
                     <p style="margin: 10px 0;"> Présentation des techniques de travail et de mes sites de veilles... </p>
                 </a>
             </div>
@@ -533,7 +483,7 @@
                         <input class="form" type="text" name="sujet" id="sujet" placeholder="Sujet" required>
                     </div>
                     <div class="form-example">
-                        <textarea name="message" id="InputMessage" class="form" placeholder="Message" style="height: 100px; margin: 1% 0 1% 0;"></textarea>
+                        <textarea name="message" id="InputMessage" class="form" placeholder="Message" style="height: 100px; margin: 1% 0 1% 0;font-family: Arial;"></textarea>
                     </div>
                     <div class="form-example" style="text-align: center;">
                         <button class="button button_read_more" style="margin: 2% 0px 3% 0%;"> Envoie ! </button>
@@ -544,33 +494,12 @@
         <article style="padding-left: 10%;">
             <div style="display: flex; justify-content: center; padding: 1%">
                 <div style="padding: 0 1% 0% 1%; text-align: center">
-                    <i class="far fa-stop-circle"></i>
                     <p> Dark mode </p>
                     <label class="switch">
                         <input type="checkbox" class="dark">
                         <span class="slider round"></span>
                     </label>
                 </div>
-                <div style="padding: 0 1% 0% 1%; text-align: center">
-                    <i class="fab fa-windows"></i>
-                    <p> 98' mode </p>
-                    <label class="switch">
-                        <input type="checkbox" class="windows">
-                        <span class="slider round"></span>
-                    </label>
-                </div>
-                <div style="padding: 0 1% 0% 1%; text-align: center">
-                    <i class="fas fa-gamepad"></i>
-                    <p> Nes mode </p>
-                    <label class="switch">
-                        <input type="checkbox" class="nintendo">
-                        <span class="slider round"></span>
-                    </label>
-                </div>
-            </div>
-            <div style="text-align: center;">
-                <i class="fas fa-info-circle"></i>
-                <p style="text-align: center;font-size: 12px; display: inline;"> Vous pouvez activer seulement un seul mode ! :) </p>
             </div>
         </article>
     </section>
@@ -582,7 +511,7 @@
         <a href="html/CGU/cgu.php" style="text-decoration:underline; color:#fff;">En savoir plus</a>
     </div>
     <footer id='footer'>
-        <p style="font-size: 12px"> © Dylan Marion 2021. All Rights Reserved. Hand made. <a href="html/CGU/cgu.php" style="color: #45505b;"> Condition Général d'Utilisation (CGU) </a> </p>
+        <p style="font-size: 12px"> © Dylan Marion 2021. All Rights Reserved. Hand made. <a href="html/CGU/cgu.php" style="color: white;"> Condition Général d'Utilisation (CGU) </a> </p>
     </footer>
 </body>
 
